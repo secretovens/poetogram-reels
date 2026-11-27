@@ -6,9 +6,10 @@ import math, random, re, sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import arts
 
-STYLES = ["parchment", "noir", "diary", "night", "poster", "dusk", "chalk"]
+STYLES = ["scene", "parchment", "noir", "diary", "night", "poster", "dusk", "chalk"]
 
-P = {  # text colour, accent colour, font, weight, align, reveal mode, small-text colour
+P = {  # text colour, accent colour, font, align, reveal mode, small-text colour
+    "scene":     dict(fg="#ffffff", acc="#ffe066", font="FreeSerif", align="center", mode="line", sub="#fff4e6"),
     "parchment": dict(fg="#2e2118", acc="#b3261e", font="FreeSerif", align="center", mode="line", sub="#7a5a3c"),
     "noir":      dict(fg="#f4f1ea", acc="#f2b134", font="FreeSans", align="left", mode="word", sub="#8d8a84"),
     "diary":     dict(fg="#1d3576", acc="#c0262d", font="FreeSerif", align="left", mode="line", sub="#5f6f99"),
@@ -37,8 +38,11 @@ def art_svg(name, seed, recolor=None, dy=0, scale=1.0, op=1.0):
             f'<filter id="wob"><feTurbulence type="fractalNoise" baseFrequency=".03" numOctaves="2" seed="3"/>'
             f'<feDisplacementMap in="SourceGraphic" scale="4"/></filter><g filter="url(#wob)">{s}</g></g>')
 
-def background(style, W, H, seed=1, art=None, art_dy=None):
+def background(style, W, H, seed=1, art=None, art_dy=None, spec=None):
     rnd = random.Random(seed)
+    if style == "scene":
+        import scene
+        return scene.scene_svg(W, H, spec or {})
     if style == "parchment":
         dy = (H - 1350) // 2 + 150 if art_dy is None else art_dy
         return (f'<div class="bg" style="background:radial-gradient(ellipse at 50% 40%,#f4e7cb 0%,#ead8b2 60%,#d9c194 100%)"></div>'
@@ -105,6 +109,7 @@ def base_css(style, W, H):
         "dusk": ".q{text-shadow:0 3px 18px rgba(40,10,40,.55)}",
         "chalk": ".q{filter:url(#chalkf)}.acc{color:#ffe066}",
         "parchment": ".q{text-shadow:0 1px 0 rgba(255,255,255,.35)}",
+        "scene": ".q{text-shadow:0 3px 14px rgba(40,20,10,.55),0 1px 2px rgba(0,0,0,.4)}.sub{text-shadow:0 2px 8px rgba(0,0,0,.45)}.acc{color:#ffe066}",
     }[style]
     return (f"html,body{{margin:0;padding:0}}.page{{width:{W}px;height:{H}px;position:relative;overflow:hidden;font-family:'{p['font']}'}}"
             f".bg{{position:absolute;inset:0}}.acc{{color:{p['acc']}}}"

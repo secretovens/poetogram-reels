@@ -12,10 +12,11 @@ from playwright.sync_api import sync_playwright
 HERE = os.path.dirname(os.path.abspath(__file__)); ROOT = os.path.dirname(HERE)
 W, H = 1080, 1920
 ZONES = {  # quote block top/bottom in px
+    "scene": (350, 900),
     "parchment": (430, 980), "noir": (400, 1300), "diary": (440, 1260), "night": (420, 1120),
     "poster": (560, 1460), "dusk": (420, 1240), "chalk": (420, 1300)}
-F0 = {"parchment": 76, "noir": 96, "diary": 76, "night": 78, "poster": 100, "dusk": 80, "chalk": 88}
-MOOD = {"parchment": "piano", "noir": "strings", "diary": "guitar", "night": "sitar",
+F0 = {"scene": 84, "parchment": 76, "noir": 96, "diary": 76, "night": 78, "poster": 100, "dusk": 80, "chalk": 88}
+MOOD = {"scene": "guitar", "parchment": "piano", "noir": "strings", "diary": "guitar", "night": "sitar",
         "poster": "piano", "dusk": "santoor", "chalk": "musicbox"}
 CTAS = {
     "send": "उसे भेजो, जिसे ये सुनना ज़रूरी है  ↗",
@@ -46,17 +47,17 @@ def page_html(it):
     pad_l = 170 if st == "diary" else 90
     css = base_css(st, W, H) + f"""
 .u{{opacity:0}}.ln{{white-space:nowrap}}
-.hook{{position:absolute;top:235px;left:{pad_l}px;right:90px;text-align:{align};font-size:50px;line-height:1.35;font-weight:bold}}
+.hook{{position:absolute;top:{200 if st=='scene' else 235}px;left:{pad_l}px;right:90px;text-align:{align};font-size:50px;line-height:1.35;font-weight:bold}}
 .zone{{position:absolute;top:{top}px;left:{pad_l}px;right:90px;height:{bot-top}px;display:flex;flex-direction:column;justify-content:center}}
 .tag{{font-size:30px;letter-spacing:3px;margin-bottom:28px;text-align:{align};font-weight:normal}}
 .handle{{font-size:28px;letter-spacing:2px;margin-top:34px;text-align:{align};font-weight:normal;opacity:0}}
 .cta{{position:absolute;left:0;right:0;top:{min(bot + 60, 1480)}px;text-align:center;opacity:0}}
 .cta span{{display:inline-block;padding:20px 36px;border-radius:60px;font:bold 38px FreeSans;
-  background:{p['fg']};color:{'#111' if st in ('noir','night','dusk','chalk') else '#fff'}}}
+  background:{p['fg']};color:{'#111' if st in ('noir','night','dusk','chalk','scene') else '#fff'}}}
 """
     if st == "diary":
         css += ".q{line-height:74px}.zone{justify-content:flex-start;padding-top:20px}"
-    body = (f'<div class="page">{background(st, W, H, it.get("seed", 1), it.get("art"))}{CHALK_FILTER if st == "chalk" else ""}'
+    body = (f'<div class="page">{background(st, W, H, it.get("seed", 1), it.get("art"), None, it.get("scene"))}{CHALK_FILTER if st == "chalk" else ""}'
             f'<div class="hook sub">{hook}</div>'
             f'<div class="zone"><div class="tag sub">{"— " + tag + " —" if align == "center" else tag}</div>'
             f'<div class="q" id="q">{"<br>".join(chr(60)+"span class=ln"+chr(62)+l+"</span>" for l in lines_html)}</div><div class="handle sub" id="h">@its_poetogram</div></div>'
@@ -112,7 +113,8 @@ def build(it, pw_page, tmp):
         for fn, d in lst: f.write(f"file '{fn}'\nduration {d:.3f}\n")
         f.write(f"file '{lst[-1][0]}'\n")
     music = f"{tmp}/{it['id']}.wav"
-    mood = it.get("music") or MOOD[it["style"]]
+    SKYMOOD = {"golden": "guitar", "sunrise": "santoor", "dusk": "strings", "night": "sitar", "rain": "piano", "day": "musicbox", "pink": "musicbox"}
+    mood = it.get("music") or (SKYMOOD.get(it.get("scene", {}).get("sky"), "guitar") if it["style"] == "scene" else MOOD[it["style"]])
     subprocess.run(["python3", os.path.join(HERE, "music2.py"), music, mood, str(it.get("seed", 1)), f"{total:.2f}"], check=True, capture_output=True)
     out = os.path.join(ROOT, "reels", it["id"] + ".mp4")
     zoom = "scale=2160:3840,zoompan=z='1+0.05*on/{N}':d=1:x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':s=1080x1920:fps=30".replace("{N}", str(int(total * 30)))

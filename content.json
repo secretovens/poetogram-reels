@@ -41,9 +41,33 @@
    "tag": "अनकहा सच · 04",
    "seed": 4,
    "caption": "आपके आसपास भी कोई ऐसा है।\n\nजो रोज़ कहता है — मैं ठीक हूँ,\nउससे एक बार\n\"सच में?\" पूछ लेना।\n\nउसे ये भेज दीजिए। बस इतना काफ़ी है।\n\nअनकहा सच · 04 — वो बातें जो सब सोचते हैं, पर कोई कहता नहीं।\nFollow @its_poetogram for अनकहा सच · 05\n\nHindi poetry, zindagi ka sach, deep Hindi quotes, middle class life, relatable shayari\n\n#its_poetogram #hindipoetry #ankahasach #zindagi #friendship #mentalhealth",
-   "style": "diary",
+   "style": "scene",
    "cta": "send",
-   "hook": "आपके आसपास भी कोई ऐसा है।"
+   "hook": "आपके आसपास भी कोई ऐसा है।",
+   "scene": {
+    "sky": "golden",
+    "place": "rooftop",
+    "people": [
+     {
+      "who": "man",
+      "pose": "sit",
+      "x": 0.38,
+      "arm": "shoulder",
+      "shirt": "#2f6f8f"
+     },
+     {
+      "who": "man",
+      "pose": "sit",
+      "x": 0.6,
+      "shirt": "#e07a5f"
+     }
+    ],
+    "props": [
+     "chai",
+     "birds"
+    ],
+    "seed": 4
+   }
   },
   {
    "id": "sach05",
@@ -57,9 +81,27 @@
    "tag": "अनकहा सच · 05",
    "seed": 5,
    "caption": "आपका सबसे महँगा सबक़ क्या था?\n\nसबसे महँगा सबक़ उसी से मिलता है,\nजिसे हमने\nसब कुछ मुफ़्त में दिया था।\n\nSave करें, याद रखने के लिए।\n\nअनकहा सच · 05 — वो बातें जो सब सोचते हैं, पर कोई कहता नहीं।\nFollow @its_poetogram for अनकहा सच · 06\n\nHindi poetry, zindagi ka sach, deep Hindi quotes, middle class life, relatable shayari\n\n#its_poetogram #hindipoetry #ankahasach #zindagi #lifelessons #trust",
-   "style": "night",
+   "style": "scene",
    "cta": "save",
-   "hook": "आपका सबसे महँगा सबक़ क्या था?"
+   "hook": "आपका सबसे महँगा सबक़ क्या था?",
+   "scene": {
+    "sky": "dusk",
+    "place": "rooftop",
+    "people": [
+     {
+      "who": "man",
+      "pose": "back",
+      "x": 0.35,
+      "arm": "up",
+      "shirt": "#f2cc8f"
+     }
+    ],
+    "props": [
+     "kite",
+     "birds"
+    ],
+    "seed": 5
+   }
   },
   {
    "id": "sach06",
@@ -73,9 +115,32 @@
    "tag": "अनकहा सच · 06",
    "seed": 6,
    "caption": "हर बहस जीतने लायक नहीं होती।\n\nबहस जीतकर भी\nकई लोग\nरिश्ते हार जाते हैं।\n\nउसे भेजिए जिससे आख़िरी बहस हुई थी।\n\nअनकहा सच · 06 — वो बातें जो सब सोचते हैं, पर कोई कहता नहीं।\nFollow @its_poetogram for अनकहा सच · 07\n\nHindi poetry, zindagi ka sach, deep Hindi quotes, middle class life, relatable shayari\n\n#its_poetogram #hindipoetry #ankahasach #zindagi #rishte #relationships",
-   "style": "poster",
+   "style": "scene",
    "cta": "comment",
-   "hook": "हर बहस जीतने लायक नहीं होती।"
+   "hook": "हर बहस जीतने लायक नहीं होती।",
+   "scene": {
+    "sky": "rain",
+    "place": "room",
+    "people": [
+     {
+      "who": "man",
+      "pose": "back",
+      "x": 0.22,
+      "shirt": "#3d405b"
+     },
+     {
+      "who": "woman",
+      "pose": "stand",
+      "x": 0.78,
+      "shirt": "#9b5de5"
+     }
+    ],
+    "props": [
+     "clock",
+     "plant"
+    ],
+    "seed": 6
+   }
   },
   {
    "id": "sach07",
@@ -89,9 +154,27 @@
    "tag": "अनकहा सच · 07",
    "seed": 7,
    "caption": "9 से 9 वाली ज़िंदगी का सच।\n\nसैलरी हर महीने आती है,\nऔर हर महीने\nथोड़ा-सा मुझे ले जाती है।\n\nOffice वाले दोस्त को भेजिए 👇\n\nअनकहा सच · 07 — वो बातें जो सब सोचते हैं, पर कोई कहता नहीं।\nFollow @its_poetogram for अनकहा सच · 08\n\nHindi poetry, zindagi ka sach, deep Hindi quotes, middle class life, relatable shayari\n\n#its_poetogram #hindipoetry #ankahasach #zindagi #corporatelife #9to5",
-   "style": "dusk",
+   "style": "scene",
    "cta": "send",
-   "hook": "9 से 9 वाली ज़िंदगी का सच।"
+   "hook": "9 से 9 वाली ज़िंदगी का सच।",
+   "scene": {
+    "sky": "night",
+    "place": "office",
+    "people": [
+     {
+      "who": "man",
+      "pose": "sit",
+      "x": 0.42,
+      "arm": "lap",
+      "shirt": "#277da1"
+     }
+    ],
+    "props": [
+     "laptop",
+     "lamp"
+    ],
+    "seed": 7
+   }
   },
   {
    "id": "sach08",
@@ -105,9 +188,27 @@
    "tag": "अनकहा सच · 08",
    "seed": 8,
    "caption": "बचपन की कौन-सी चीज़ सबसे ज़्यादा याद आती है?\n\nबचपन में बड़े होने की जल्दी थी,\nअब समझ आया,\nवो जल्दी नहीं, ग़लती थी।\n\nComment में एक शब्द लिखिए।\n\nअनकहा सच · 08 — वो बातें जो सब सोचते हैं, पर कोई कहता नहीं।\nFollow @its_poetogram for अनकहा सच · 09\n\nHindi poetry, zindagi ka sach, deep Hindi quotes, middle class life, relatable shayari\n\n#its_poetogram #hindipoetry #ankahasach #zindagi #bachpan #nostalgia",
-   "style": "chalk",
+   "style": "scene",
    "cta": "save",
-   "hook": "बचपन की कौन-सी चीज़ सबसे ज़्यादा याद आती है?"
+   "hook": "बचपन की कौन-सी चीज़ सबसे ज़्यादा याद आती है?",
+   "scene": {
+    "sky": "day",
+    "place": "park",
+    "people": [
+     {
+      "who": "kid",
+      "pose": "sit",
+      "x": 0.5,
+      "shirt": "#e63946"
+     }
+    ],
+    "props": [
+     "swing",
+     "flowers",
+     "birds"
+    ],
+    "seed": 8
+   }
   },
   {
    "id": "sach09",
@@ -121,9 +222,37 @@
    "tag": "अनकहा सच · 09",
    "seed": 9,
    "caption": "सेटल होना और ख़ुश होना एक बात नहीं है।\n\nघर वाले पूछते हैं — कब सेटल होगे?\nकोई नहीं पूछता —\nख़ुश हो?\n\nSave करें। और ख़ुद से पूछिए — ख़ुश हो?\n\nअनकहा सच · 09 — वो बातें जो सब सोचते हैं, पर कोई कहता नहीं।\nFollow @its_poetogram for अनकहा सच · 10\n\nHindi poetry, zindagi ka sach, deep Hindi quotes, middle class life, relatable shayari\n\n#its_poetogram #hindipoetry #ankahasach #zindagi #middleclass #settle",
-   "style": "parchment",
+   "style": "scene",
    "cta": "tag",
-   "hook": "सेटल होना और ख़ुश होना एक बात नहीं है।"
+   "hook": "सेटल होना और ख़ुश होना एक बात नहीं है।",
+   "scene": {
+    "sky": "golden",
+    "place": "room",
+    "people": [
+     {
+      "who": "oldman",
+      "pose": "stand",
+      "x": 0.22,
+      "shirt": "#f2e6c8"
+     },
+     {
+      "who": "man",
+      "pose": "back",
+      "x": 0.5,
+      "shirt": "#457b9d"
+     },
+     {
+      "who": "oldwoman",
+      "pose": "stand",
+      "x": 0.78,
+      "shirt": "#e07a5f"
+     }
+    ],
+    "props": [
+     "clock"
+    ],
+    "seed": 9
+   }
   },
   {
    "id": "sach10",
@@ -137,9 +266,37 @@
    "tag": "अनकहा सच · 10",
    "seed": 10,
    "caption": "पैसा आते ही लोग बदल जाते हैं, या असली दिखने लगते हैं?\n\nजिस दिन जेब भारी हुई,\nउस दिन पता चला,\nकौन-से रिश्ते हल्के थे।\n\nComment में बताइए 👇\n\nअनकहा सच · 10 — वो बातें जो सब सोचते हैं, पर कोई कहता नहीं।\nFollow @its_poetogram for अनकहा सच · 11\n\nHindi poetry, zindagi ka sach, deep Hindi quotes, middle class life, relatable shayari\n\n#its_poetogram #hindipoetry #ankahasach #zindagi #money #relationships",
-   "style": "noir",
+   "style": "scene",
    "cta": "send",
-   "hook": "पैसा आते ही लोग बदल जाते हैं, या असली दिखने लगते हैं?"
+   "hook": "पैसा आते ही लोग बदल जाते हैं, या असली दिखने लगते हैं?",
+   "scene": {
+    "sky": "night",
+    "place": "street",
+    "people": [
+     {
+      "who": "man",
+      "pose": "walk",
+      "x": 0.14,
+      "shirt": "#81b29a"
+     },
+     {
+      "who": "man",
+      "pose": "stand",
+      "x": 0.5,
+      "shirt": "#f2cc8f"
+     },
+     {
+      "who": "woman",
+      "pose": "back",
+      "x": 0.86,
+      "shirt": "#e63946"
+     }
+    ],
+    "props": [
+     "lights"
+    ],
+    "seed": 10
+   }
   },
   {
    "id": "sach11",
@@ -153,9 +310,27 @@
    "tag": "अनकहा सच · 11",
    "seed": 11,
    "caption": "25 के बाद की ज़िंदगी, बिना filter।\n\nहम उस उम्र में हैं\nजहाँ \"सब ठीक है\"\nसबसे बड़ा झूठ है।\n\nउस दोस्त को भेजिए जो हर बार \"सब ठीक है\" कहता है।\n\nअनकहा सच · 11 — वो बातें जो सब सोचते हैं, पर कोई कहता नहीं।\nFollow @its_poetogram for अनकहा सच · 12\n\nHindi poetry, zindagi ka sach, deep Hindi quotes, middle class life, relatable shayari\n\n#its_poetogram #hindipoetry #ankahasach #zindagi #adulting #truth",
-   "style": "diary",
+   "style": "scene",
    "cta": "send",
-   "hook": "25 के बाद की ज़िंदगी, बिना filter।"
+   "hook": "25 के बाद की ज़िंदगी, बिना filter।",
+   "scene": {
+    "sky": "dusk",
+    "place": "balcony",
+    "people": [
+     {
+      "who": "man",
+      "pose": "stand",
+      "x": 0.5,
+      "arm": "phone",
+      "shirt": "#2a9d8f"
+     }
+    ],
+    "props": [
+     "plant",
+     "stars"
+    ],
+    "seed": 11
+   }
   },
   {
    "id": "sach12",
@@ -169,9 +344,26 @@
    "tag": "अनकहा सच · 12",
    "seed": 12,
    "caption": "आज पापा से बस इतना पूछ लेना — थक गए?\n\nपापा की चुप्पी को\nहम सख़्ती समझते रहे,\nवो थकान थी।\n\nSave करें। और आज पापा को फ़ोन करें।\n\nअनकहा सच · 12 — वो बातें जो सब सोचते हैं, पर कोई कहता नहीं।\nFollow @its_poetogram for अनकहा सच · 13\n\nHindi poetry, zindagi ka sach, deep Hindi quotes, middle class life, relatable shayari\n\n#its_poetogram #hindipoetry #ankahasach #zindagi #papa #father",
-   "style": "night",
+   "style": "scene",
    "cta": "save",
-   "hook": "आज पापा से बस इतना पूछ लेना — थक गए?"
+   "hook": "आज पापा से बस इतना पूछ लेना — थक गए?",
+   "scene": {
+    "sky": "sunrise",
+    "place": "street",
+    "people": [
+     {
+      "who": "oldman",
+      "pose": "stand",
+      "x": 0.62,
+      "shirt": "#f4f1de"
+     }
+    ],
+    "props": [
+     "scooter",
+     "birds"
+    ],
+    "seed": 12
+   }
   },
   {
    "id": "sach13",
@@ -185,9 +377,38 @@
    "tag": "अनकहा सच · 13",
    "seed": 13,
    "caption": "कब से \"बाद में मिलते हैं\" चल रहा है?\n\nदोस्त कम नहीं हुए,\nबस सबकी ज़िंदगी में\nहम \"बाद में\" हो गए।\n\nउस दोस्त को tag करें। आज ही।\n\nअनकहा सच · 13 — वो बातें जो सब सोचते हैं, पर कोई कहता नहीं।\nFollow @its_poetogram for अनकहा सच · 14\n\nHindi poetry, zindagi ka sach, deep Hindi quotes, middle class life, relatable shayari\n\n#its_poetogram #hindipoetry #ankahasach #zindagi #dosti #friendship",
-   "style": "poster",
+   "style": "scene",
    "cta": "comment",
-   "hook": "कब से \"बाद में मिलते हैं\" चल रहा है?"
+   "hook": "कब से \"बाद में मिलते हैं\" चल रहा है?",
+   "scene": {
+    "sky": "day",
+    "place": "city",
+    "people": [
+     {
+      "who": "man",
+      "pose": "walk",
+      "x": 0.2,
+      "shirt": "#e07a5f"
+     },
+     {
+      "who": "man",
+      "pose": "back",
+      "x": 0.5,
+      "shirt": "#3d405b"
+     },
+     {
+      "who": "man",
+      "pose": "stand",
+      "x": 0.8,
+      "arm": "phone",
+      "shirt": "#81b29a"
+     }
+    ],
+    "props": [
+     "birds"
+    ],
+    "seed": 13
+   }
   },
   {
    "id": "sach14",
@@ -201,9 +422,26 @@
    "tag": "अनकहा सच · 14",
    "seed": 14,
    "caption": "जो जाता है, वो सिखाकर जाता है।\n\nजिन्हें खोने से डरते थे,\nवो चले गए…\nऔर देखो, हम फिर भी ज़िंदा हैं।\n\nSave करें — बुरे दिन के लिए।\n\nअनकहा सच · 14 — वो बातें जो सब सोचते हैं, पर कोई कहता नहीं।\nFollow @its_poetogram for अनकहा सच · 15\n\nHindi poetry, zindagi ka sach, deep Hindi quotes, middle class life, relatable shayari\n\n#its_poetogram #hindipoetry #ankahasach #zindagi #movingon #healing",
-   "style": "dusk",
+   "style": "scene",
    "cta": "send",
-   "hook": "जो जाता है, वो सिखाकर जाता है।"
+   "hook": "जो जाता है, वो सिखाकर जाता है।",
+   "scene": {
+    "sky": "sunrise",
+    "place": "park",
+    "people": [
+     {
+      "who": "man",
+      "pose": "back",
+      "x": 0.5,
+      "shirt": "#e76f51"
+     }
+    ],
+    "props": [
+     "flowers",
+     "birds"
+    ],
+    "seed": 14
+   }
   },
   {
    "id": "sach15",
@@ -217,9 +455,26 @@
    "tag": "अनकहा सच · 15",
    "seed": 15,
    "caption": "हर सुबह की यही लड़ाई।\n\nनौकरी छोड़ने की हिम्मत नहीं,\nऔर रोज़ जाने की\nताक़त भी नहीं।\n\nRelate करते हैं तो Comment में 🙂\n\nअनकहा सच · 15 — वो बातें जो सब सोचते हैं, पर कोई कहता नहीं।\nFollow @its_poetogram for अनकहा सच · 16\n\nHindi poetry, zindagi ka sach, deep Hindi quotes, middle class life, relatable shayari\n\n#its_poetogram #hindipoetry #ankahasach #zindagi #corporatelife #jobstress",
-   "style": "chalk",
+   "style": "scene",
    "cta": "save",
-   "hook": "हर सुबह की यही लड़ाई।"
+   "hook": "हर सुबह की यही लड़ाई।",
+   "scene": {
+    "sky": "rain",
+    "place": "station",
+    "people": [
+     {
+      "who": "man",
+      "pose": "stand",
+      "x": 0.5,
+      "shirt": "#ffffff",
+      "pants": "#264653"
+     }
+    ],
+    "props": [
+     "train"
+    ],
+    "seed": 15
+   }
   },
   {
    "id": "sach16",
@@ -233,9 +488,26 @@
    "tag": "अनकहा सच · 16",
    "seed": 16,
    "caption": "आप कौन-सा सपना कल पर टाल रहे हैं?\n\nहम सपने कल पर टालते रहे,\nऔर कल\nहर रोज़ आज बनकर निकल गया।\n\nSave करें। और आज शुरू करें।\n\nअनकहा सच · 16 — वो बातें जो सब सोचते हैं, पर कोई कहता नहीं।\nFollow @its_poetogram for अनकहा सच · 17\n\nHindi poetry, zindagi ka sach, deep Hindi quotes, middle class life, relatable shayari\n\n#its_poetogram #hindipoetry #ankahasach #zindagi #dreams #procrastination",
-   "style": "parchment",
+   "style": "scene",
    "cta": "tag",
-   "hook": "आप कौन-सा सपना कल पर टाल रहे हैं?"
+   "hook": "आप कौन-सा सपना कल पर टाल रहे हैं?",
+   "scene": {
+    "sky": "night",
+    "place": "rooftop",
+    "people": [
+     {
+      "who": "man",
+      "pose": "sit",
+      "x": 0.5,
+      "shirt": "#ffb703"
+     }
+    ],
+    "props": [
+     "moon",
+     "stars"
+    ],
+    "seed": 16
+   }
   },
   {
    "id": "sach17",
@@ -250,9 +522,26 @@
    "tag": "अनकहा सच · 17",
    "seed": 17,
    "caption": "घर से दूर हर बेटे का सच।\n\nमाँ हर फ़ोन पर पूछती है,\nकब आओगे?\nऔर हम हर बार कहते हैं —\nअगले महीने।\n\nमाँ को आज फ़ोन करें। आज ही।\n\nअनकहा सच · 17 — वो बातें जो सब सोचते हैं, पर कोई कहता नहीं।\nFollow @its_poetogram for अनकहा सच · 18\n\nHindi poetry, zindagi ka sach, deep Hindi quotes, middle class life, relatable shayari\n\n#its_poetogram #hindipoetry #ankahasach #zindagi #maa #ghar",
-   "style": "noir",
+   "style": "scene",
    "cta": "send",
-   "hook": "घर से दूर हर बेटे का सच।"
+   "hook": "घर से दूर हर बेटे का सच।",
+   "scene": {
+    "sky": "golden",
+    "place": "kitchen",
+    "people": [
+     {
+      "who": "oldwoman",
+      "pose": "stand",
+      "x": 0.45,
+      "arm": "phone",
+      "shirt": "#d62828"
+     }
+    ],
+    "props": [
+     "plant"
+    ],
+    "seed": 17
+   }
   },
   {
    "id": "sach18",
@@ -266,9 +555,31 @@
    "tag": "अनकहा सच · 18",
    "seed": 18,
    "caption": "आपकी कहानी का सबसे बड़ा सबक़ कौन था?\n\nकुछ लोग आपकी कहानी में\nकिरदार नहीं,\nसबक़ बनकर आते हैं।\n\nनाम मत लिखिए, बस 🙂 लिख दीजिए।\n\nअनकहा सच · 18 — वो बातें जो सब सोचते हैं, पर कोई कहता नहीं।\nFollow @its_poetogram for अनकहा सच · 19\n\nHindi poetry, zindagi ka sach, deep Hindi quotes, middle class life, relatable shayari\n\n#its_poetogram #hindipoetry #ankahasach #zindagi #lifelessons #people",
-   "style": "diary",
+   "style": "scene",
    "cta": "send",
-   "hook": "आपकी कहानी का सबसे बड़ा सबक़ कौन था?"
+   "hook": "आपकी कहानी का सबसे बड़ा सबक़ कौन था?",
+   "scene": {
+    "sky": "pink",
+    "place": "street",
+    "people": [
+     {
+      "who": "woman",
+      "pose": "walk",
+      "x": 0.25,
+      "shirt": "#9b5de5"
+     },
+     {
+      "who": "man",
+      "pose": "back",
+      "x": 0.72,
+      "shirt": "#277da1"
+     }
+    ],
+    "props": [
+     "birds"
+    ],
+    "seed": 18
+   }
   },
   {
    "id": "sach19",
@@ -282,9 +593,40 @@
    "tag": "अनकहा सच · 19",
    "seed": 19,
    "caption": "चुप्पी भी बहुत कुछ कहती है।\n\nसबसे ज़्यादा शोर\nउस घर में होता है,\nजहाँ कोई कुछ नहीं बोलता।\n\nSave करें।\n\nअनकहा सच · 19 — वो बातें जो सब सोचते हैं, पर कोई कहता नहीं।\nFollow @its_poetogram for अनकहा सच · 20\n\nHindi poetry, zindagi ka sach, deep Hindi quotes, middle class life, relatable shayari\n\n#its_poetogram #hindipoetry #ankahasach #zindagi #silence #family",
-   "style": "night",
+   "style": "scene",
    "cta": "save",
-   "hook": "चुप्पी भी बहुत कुछ कहती है।"
+   "hook": "चुप्पी भी बहुत कुछ कहती है।",
+   "scene": {
+    "sky": "night",
+    "place": "room",
+    "people": [
+     {
+      "who": "man",
+      "pose": "stand",
+      "x": 0.2,
+      "arm": "phone",
+      "shirt": "#457b9d"
+     },
+     {
+      "who": "woman",
+      "pose": "stand",
+      "x": 0.5,
+      "arm": "phone",
+      "shirt": "#f4a261"
+     },
+     {
+      "who": "kid",
+      "pose": "stand",
+      "x": 0.8,
+      "arm": "phone",
+      "shirt": "#e63946"
+     }
+    ],
+    "props": [
+     "lamp"
+    ],
+    "seed": 19
+   }
   },
   {
    "id": "sach20",
@@ -298,9 +640,31 @@
    "tag": "अनकहा सच · 20",
    "seed": 20,
    "caption": "माफ़ करना और भूल जाना — एक बात नहीं।\n\nहम माफ़ तो कर देते हैं,\nपर पहले जैसा\nभरोसा नहीं कर पाते।\n\nRelate करते हैं तो भेजिए 👇\n\nअनकहा सच · 20 — वो बातें जो सब सोचते हैं, पर कोई कहता नहीं।\nFollow @its_poetogram for अनकहा सच · 21\n\nHindi poetry, zindagi ka sach, deep Hindi quotes, middle class life, relatable shayari\n\n#its_poetogram #hindipoetry #ankahasach #zindagi #trust #forgive",
-   "style": "poster",
+   "style": "scene",
    "cta": "comment",
-   "hook": "माफ़ करना और भूल जाना — एक बात नहीं।"
+   "hook": "माफ़ करना और भूल जाना — एक बात नहीं।",
+   "scene": {
+    "sky": "rain",
+    "place": "balcony",
+    "people": [
+     {
+      "who": "woman",
+      "pose": "stand",
+      "x": 0.25,
+      "shirt": "#2a9d8f"
+     },
+     {
+      "who": "man",
+      "pose": "back",
+      "x": 0.75,
+      "shirt": "#3d405b"
+     }
+    ],
+    "props": [
+     "plant"
+    ],
+    "seed": 20
+   }
   },
   {
    "id": "sach21",
@@ -314,9 +678,27 @@
    "tag": "अनकहा सच · 21",
    "seed": 21,
    "caption": "Middle class का सबसे लंबा loan — ज़िंदगी।\n\nतनख़्वाह से EMI कटती है,\nऔर EMI से\nज़िंदगी।\n\nEMI वाले दोस्त को भेजिए 🙂\n\nअनकहा सच · 21 — वो बातें जो सब सोचते हैं, पर कोई कहता नहीं।\nFollow @its_poetogram for अनकहा सच · 22\n\nHindi poetry, zindagi ka sach, deep Hindi quotes, middle class life, relatable shayari\n\n#its_poetogram #hindipoetry #ankahasach #zindagi #middleclass #emi",
-   "style": "dusk",
+   "style": "scene",
    "cta": "send",
-   "hook": "Middle class का सबसे लंबा loan — ज़िंदगी।"
+   "hook": "Middle class का सबसे लंबा loan — ज़िंदगी।",
+   "scene": {
+    "sky": "day",
+    "place": "office",
+    "people": [
+     {
+      "who": "man",
+      "pose": "sit",
+      "x": 0.4,
+      "shirt": "#f2cc8f"
+     }
+    ],
+    "props": [
+     "laptop",
+     "clock",
+     "books"
+    ],
+    "seed": 21
+   }
   },
   {
    "id": "sach22",
@@ -331,9 +713,43 @@
    "tag": "अनकहा सच · 22",
    "seed": 22,
    "caption": "भीड़ में अकेलापन सबसे भारी होता है।\n\nअकेलापन तब नहीं होता\nजब कोई न हो,\nतब होता है जब सब हों\nऔर कोई न समझे।\n\nSave करें।\n\nअनकहा सच · 22 — वो बातें जो सब सोचते हैं, पर कोई कहता नहीं।\nFollow @its_poetogram for अनकहा सच · 23\n\nHindi poetry, zindagi ka sach, deep Hindi quotes, middle class life, relatable shayari\n\n#its_poetogram #hindipoetry #ankahasach #zindagi #loneliness #alone",
-   "style": "chalk",
+   "style": "scene",
    "cta": "save",
-   "hook": "भीड़ में अकेलापन सबसे भारी होता है।"
+   "hook": "भीड़ में अकेलापन सबसे भारी होता है।",
+   "scene": {
+    "sky": "golden",
+    "place": "park",
+    "people": [
+     {
+      "who": "man",
+      "pose": "stand",
+      "x": 0.14,
+      "shirt": "#e07a5f"
+     },
+     {
+      "who": "woman",
+      "pose": "stand",
+      "x": 0.3,
+      "shirt": "#9b5de5"
+     },
+     {
+      "who": "man",
+      "pose": "stand",
+      "x": 0.46,
+      "shirt": "#81b29a"
+     },
+     {
+      "who": "man",
+      "pose": "back",
+      "x": 0.84,
+      "shirt": "#3d405b"
+     }
+    ],
+    "props": [
+     "lights"
+    ],
+    "seed": 22
+   }
   },
   {
    "id": "sach23",
@@ -347,9 +763,33 @@
    "tag": "अनकहा सच · 23",
    "seed": 23,
    "caption": "हर पिता का अनकहा प्यार।\n\nपापा बनकर समझ आया,\nवो \"ना\" क्यों कहते थे —\nवो ना नहीं, डर था।\n\nअपने पापा को भेजिए ❤️\n\nअनकहा सच · 23 — वो बातें जो सब सोचते हैं, पर कोई कहता नहीं।\nFollow @its_poetogram for अनकहा सच · 24\n\nHindi poetry, zindagi ka sach, deep Hindi quotes, middle class life, relatable shayari\n\n#its_poetogram #hindipoetry #ankahasach #zindagi #papa #fatherhood",
-   "style": "parchment",
+   "style": "scene",
    "cta": "tag",
-   "hook": "हर पिता का अनकहा प्यार।"
+   "hook": "हर पिता का अनकहा प्यार।",
+   "scene": {
+    "sky": "day",
+    "place": "park",
+    "people": [
+     {
+      "who": "man",
+      "pose": "stand",
+      "x": 0.28,
+      "arm": "up",
+      "shirt": "#277da1"
+     },
+     {
+      "who": "kid",
+      "pose": "sit",
+      "x": 0.62,
+      "shirt": "#ffb703"
+     }
+    ],
+    "props": [
+     "swing",
+     "flowers"
+    ],
+    "seed": 23
+   }
   },
   {
    "id": "sach24",
@@ -363,9 +803,39 @@
    "tag": "अनकहा सच · 24",
    "seed": 24,
    "caption": "घर का वो इंसान जो कभी थकता नहीं दिखता।\n\nजो सबको संभालता है,\nउसे संभालने वाला\nकोई नहीं होता।\n\nउसे भेजिए और कहिए — मैं हूँ।\n\nअनकहा सच · 24 — वो बातें जो सब सोचते हैं, पर कोई कहता नहीं।\nFollow @its_poetogram for अनकहा सच · 25\n\nHindi poetry, zindagi ka sach, deep Hindi quotes, middle class life, relatable shayari\n\n#its_poetogram #hindipoetry #ankahasach #zindagi #strongpeople #family",
-   "style": "noir",
+   "style": "scene",
    "cta": "send",
-   "hook": "घर का वो इंसान जो कभी थकता नहीं दिखता।"
+   "hook": "घर का वो इंसान जो कभी थकता नहीं दिखता।",
+   "scene": {
+    "sky": "rain",
+    "place": "street",
+    "people": [
+     {
+      "who": "man",
+      "pose": "stand",
+      "x": 0.5,
+      "arm": "up",
+      "shirt": "#2a9d8f"
+     },
+     {
+      "who": "oldwoman",
+      "pose": "stand",
+      "x": 0.3,
+      "shirt": "#e07a5f",
+      "scale": 0.9
+     },
+     {
+      "who": "kid",
+      "pose": "stand",
+      "x": 0.68,
+      "shirt": "#ffd166"
+     }
+    ],
+    "props": [
+     "umbrella"
+    ],
+    "seed": 24
+   }
   },
   {
    "id": "sach25",
@@ -379,9 +849,34 @@
    "tag": "अनकहा सच · 25",
    "seed": 25,
    "caption": "कमाई बढ़ी, वक़्त घटा।\n\nमहँगी घड़ी पहन ली,\nपर अपनों के लिए\nवक़्त आज भी नहीं।\n\nSave करें। आज किसी अपने को वक़्त दें।\n\nअनकहा सच · 25 — वो बातें जो सब सोचते हैं, पर कोई कहता नहीं।\nFollow @its_poetogram for अनकहा सच · 26\n\nHindi poetry, zindagi ka sach, deep Hindi quotes, middle class life, relatable shayari\n\n#its_poetogram #hindipoetry #ankahasach #zindagi #time #family",
-   "style": "diary",
+   "style": "scene",
    "cta": "send",
-   "hook": "कमाई बढ़ी, वक़्त घटा।"
+   "hook": "कमाई बढ़ी, वक़्त घटा।",
+   "scene": {
+    "sky": "night",
+    "place": "room",
+    "people": [
+     {
+      "who": "kid",
+      "pose": "sit",
+      "x": 0.3,
+      "shirt": "#ffb703"
+     },
+     {
+      "who": "man",
+      "pose": "walk",
+      "x": 0.72,
+      "arm": "phone",
+      "shirt": "#22223b"
+     }
+    ],
+    "props": [
+     "clock",
+     "lamp",
+     "books"
+    ],
+    "seed": 25
+   }
   },
   {
    "id": "sach26",
@@ -395,9 +890,26 @@
    "tag": "अनकहा सच · 26",
    "seed": 26,
    "caption": "सबसे ज़्यादा हँसाने वाला अक्सर सबसे अकेला होता है।\n\nजो हर बात पर हँसता है,\nउसके पास अक्सर\nरोने की जगह नहीं होती।\n\nउस दोस्त को भेजिए 👇\n\nअनकहा सच · 26 — वो बातें जो सब सोचते हैं, पर कोई कहता नहीं।\nFollow @its_poetogram for अनकहा सच · 27\n\nHindi poetry, zindagi ka sach, deep Hindi quotes, middle class life, relatable shayari\n\n#its_poetogram #hindipoetry #ankahasach #zindagi #hiddenpain #friendship",
-   "style": "night",
+   "style": "scene",
    "cta": "save",
-   "hook": "सबसे ज़्यादा हँसाने वाला अक्सर सबसे अकेला होता है।"
+   "hook": "सबसे ज़्यादा हँसाने वाला अक्सर सबसे अकेला होता है।",
+   "scene": {
+    "sky": "dusk",
+    "place": "rooftop",
+    "people": [
+     {
+      "who": "man",
+      "pose": "sit",
+      "x": 0.55,
+      "shirt": "#f15bb5"
+     }
+    ],
+    "props": [
+     "lights",
+     "birds"
+    ],
+    "seed": 26
+   }
   },
   {
    "id": "sach27",
@@ -411,9 +923,26 @@
    "tag": "अनकहा सच · 27",
    "seed": 27,
    "caption": "आपने आख़िरी बार बिना डरे उम्मीद कब की थी?\n\nज़िंदगी ने इतना सिखा दिया,\nकि अब उम्मीद भी\nडरते-डरते करते हैं।\n\nComment में बताइए।\n\nअनकहा सच · 27 — वो बातें जो सब सोचते हैं, पर कोई कहता नहीं।\nFollow @its_poetogram for अनकहा सच · 28\n\nHindi poetry, zindagi ka sach, deep Hindi quotes, middle class life, relatable shayari\n\n#its_poetogram #hindipoetry #ankahasach #zindagi #hope #life",
-   "style": "poster",
+   "style": "scene",
    "cta": "comment",
-   "hook": "आपने आख़िरी बार बिना डरे उम्मीद कब की थी?"
+   "hook": "आपने आख़िरी बार बिना डरे उम्मीद कब की थी?",
+   "scene": {
+    "sky": "sunrise",
+    "place": "balcony",
+    "people": [
+     {
+      "who": "woman",
+      "pose": "back",
+      "x": 0.5,
+      "shirt": "#ff9f1c"
+     }
+    ],
+    "props": [
+     "plant",
+     "birds"
+    ],
+    "seed": 27
+   }
   },
   {
    "id": "sach28",
@@ -427,9 +956,33 @@
    "tag": "अनकहा सच · 28",
    "seed": 28,
    "caption": "ऐसा एक इंसान भी हो, तो काफ़ी है।\n\nसबसे ख़ूबसूरत रिश्ते वो हैं,\nजहाँ\nसफ़ाई नहीं देनी पड़ती।\n\nउसे tag करें ❤️\n\nअनकहा सच · 28 — वो बातें जो सब सोचते हैं, पर कोई कहता नहीं।\nFollow @its_poetogram for अनकहा सच · 29\n\nHindi poetry, zindagi ka sach, deep Hindi quotes, middle class life, relatable shayari\n\n#its_poetogram #hindipoetry #ankahasach #zindagi #relationships #bestfriend",
-   "style": "dusk",
+   "style": "scene",
    "cta": "send",
-   "hook": "ऐसा एक इंसान भी हो, तो काफ़ी है।"
+   "hook": "ऐसा एक इंसान भी हो, तो काफ़ी है।",
+   "scene": {
+    "sky": "golden",
+    "place": "rooftop",
+    "people": [
+     {
+      "who": "oldman",
+      "pose": "sit",
+      "x": 0.4,
+      "shirt": "#f4f1de"
+     },
+     {
+      "who": "oldwoman",
+      "pose": "sit",
+      "x": 0.6,
+      "arm": "lap",
+      "shirt": "#e63946"
+     }
+    ],
+    "props": [
+     "chai",
+     "birds"
+    ],
+    "seed": 28
+   }
   },
   {
    "id": "sach29",
@@ -443,9 +996,26 @@
    "tag": "अनकहा सच · 29",
    "seed": 29,
    "caption": "आज खाना सबके साथ, बिना phone के।\n\nघर बड़ा होता गया,\nऔर घर में\nबात करने वाले कम।\n\nSave करें।\n\nअनकहा सच · 29 — वो बातें जो सब सोचते हैं, पर कोई कहता नहीं।\nFollow @its_poetogram for अनकहा सच · 30\n\nHindi poetry, zindagi ka sach, deep Hindi quotes, middle class life, relatable shayari\n\n#its_poetogram #hindipoetry #ankahasach #zindagi #family #ghar",
-   "style": "chalk",
+   "style": "scene",
    "cta": "save",
-   "hook": "आज खाना सबके साथ, बिना phone के।"
+   "hook": "आज खाना सबके साथ, बिना phone के।",
+   "scene": {
+    "sky": "day",
+    "place": "room",
+    "people": [
+     {
+      "who": "oldwoman",
+      "pose": "stand",
+      "x": 0.68,
+      "shirt": "#81b29a"
+     }
+    ],
+    "props": [
+     "clock",
+     "plant"
+    ],
+    "seed": 29
+   }
   },
   {
    "id": "sach30",
@@ -459,9 +1029,26 @@
    "tag": "अनकहा सच · 30",
    "seed": 30,
    "caption": "उम्र के साथ सपने छोटे नहीं, सच्चे होते हैं।\n\nबीस में दुनिया बदलनी थी,\nपैंतीस में समझ आया —\nख़ुद को बचा लूँ, वही काफ़ी है।\n\nSave करें।\n\nअनकहा सच · 30 — वो बातें जो सब सोचते हैं, पर कोई कहता नहीं।\nFollow @its_poetogram for अनकहा सच · 31\n\nHindi poetry, zindagi ka sach, deep Hindi quotes, middle class life, relatable shayari\n\n#its_poetogram #hindipoetry #ankahasach #zindagi #adulting #life",
-   "style": "parchment",
+   "style": "scene",
    "cta": "tag",
-   "hook": "उम्र के साथ सपने छोटे नहीं, सच्चे होते हैं।"
+   "hook": "उम्र के साथ सपने छोटे नहीं, सच्चे होते हैं।",
+   "scene": {
+    "sky": "sunrise",
+    "place": "village",
+    "people": [
+     {
+      "who": "man",
+      "pose": "back",
+      "x": 0.42,
+      "shirt": "#e76f51"
+     }
+    ],
+    "props": [
+     "birds",
+     "flowers"
+    ],
+    "seed": 30
+   }
   }
  ]
 }

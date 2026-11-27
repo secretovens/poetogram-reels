@@ -2,6 +2,7 @@
 
 Daily plan: 3 NEW reels as Trial Reels (non-followers only, graduation MANUAL) → the next day the same 3 reels go out as main reels → plus 1 carousel. Posting slots (IST): 08:43 main+trial · 12:43 main+trial · 18:43 carousel · 21:43 main+trial.
 
+- **Main look from 27 Nov evening: `scene`** — colourful flat illustration drawn in code (`tools/scene.py`) that matches the lines: sky (golden/sunrise/dusk/night/rain/day/pink) + place (rooftop/city/room/office/park/street/village/station/kitchen/balcony) + people (man/woman/oldman/oldwoman/kid/girl; pose stand/sit/back/walk; arm down/lap/shoulder/phone/up) + props (chai kite phone laptop swing lamp plant moon birds lights clock suitcase scooter train umbrella books tiffin flowers stars). Item field `scene`: {sky, place, people:[{who,pose,x,arm,shirt}], props, seed}. Music follows the sky.
 - `content.json` — reel items: id, lines, accent, art, tag, seed, **style**, **music**(optional), **hook**, **cta**, caption
 - `tools/reel3.py content.json <ids>` — v3 reels: 7 rotating styles (`tools/styles.py`: parchment, noir, diary, night, poster, dusk, chalk), line/word reveal, hook text on top, CTA pill at the end, slow push-in, original music (`tools/music2.py`: piano, sitar, strings, guitar, musicbox, santoor)
 - `carousels.json` + `tools/carousel.py carousels.json <ids>` — 1080x1350 slides in the same styles → `carousels/<id>/NN.jpg`
