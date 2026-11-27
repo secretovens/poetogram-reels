@@ -5,6 +5,7 @@ Theme: warm parchment, ink-sketch drawing, single red accent, Poetogram signatur
 """
 import sys, math, random, subprocess, os, argparse
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+random.seed(7)
 
 p = argparse.ArgumentParser()
 p.add_argument("out")
@@ -13,6 +14,8 @@ p.add_argument("--accent", default="")
 p.add_argument("--art", default="flower")
 p.add_argument("--size", type=int, default=0)
 p.add_argument("--tag", default="")
+p.add_argument("--reveal", type=int, default=99)
+p.add_argument("--artop", type=float, default=1.0)
 a = p.parse_args()
 
 W, H = 1080, 1350
@@ -98,10 +101,13 @@ art = "\n".join(svg)
 
 # ---------- quote text ----------
 def fmt(line):
-    if a.accent and a.accent in line:
-        return line.replace(a.accent, f'<span class="acc">{a.accent}</span>')
+    import re
+    if a.accent:
+        pat = r'(?<![\u0900-\u097F])' + re.escape(a.accent) + r'(?![\u0900-\u097F])'
+        return re.sub(pat, f'<span class="acc">{a.accent}</span>', line)
     return line
-quote_html = "<br>".join(fmt(l) for l in a.lines)
+quote_html = "<br>".join(f'<span style="visibility:{"visible" if i < a.reveal else "hidden"}">{fmt(l)}</span>' for i, l in enumerate(a.lines))
+ORN_VIS = "visible" if a.reveal >= len(a.lines) else "hidden"
 mx = max(len(l) for l in a.lines)
 tag_html = f'<div class="tag">— {a.tag} —</div>' if a.tag else ''
 FS = a.size or (66 if mx <= 30 else 58 if mx <= 36 else 50)
@@ -117,7 +123,7 @@ html,body{{margin:0;padding:0}}
  font-size:{FS}px;font-weight:bold;line-height:1.55;text-shadow:0 1px 0 rgba(255,255,255,.35)}}
 .acc{{color:{RED}}}
 .tag{{font-size:26px;font-weight:normal;color:{RED};letter-spacing:3px;margin-bottom:26px;line-height:1}}
-.orn{{margin-top:34px;text-align:center;line-height:0}}
+.orn{{margin-top:34px;text-align:center;line-height:0;visibility:{ORN_VIS}}}
 .sig{{position:absolute;right:70px;bottom:70px;text-align:right;color:{INK}}}
 .sig .name{{font-family:'FreeSerif';font-style:italic;font-weight:bold;font-size:58px;transform:rotate(-6deg);display:inline-block}}
 .handle{{position:absolute;left:70px;bottom:78px;font-size:24px;color:#6b4f35;letter-spacing:2px}}
@@ -128,7 +134,7 @@ html,body{{margin:0;padding:0}}
 <rect x="34" y="34" width="{W-68}" height="{H-68}" fill="none" stroke="#7a5a3c" stroke-width="1.2" opacity=".45"/>
 <rect x="44" y="44" width="{W-88}" height="{H-88}" fill="none" stroke="#7a5a3c" stroke-width=".6" opacity=".35"/>
 <filter id="wob"><feTurbulence type="fractalNoise" baseFrequency=".03" numOctaves="2" seed="3"/><feDisplacementMap in="SourceGraphic" scale="4"/></filter>
-<g filter="url(#wob)">{art}</g>
+<g filter="url(#wob)" opacity="{a.artop}">{art}</g>
 <!-- signature flourish -->
 <path d="M650,1300 C780,1284 920,1292 1012,1262 c-30,2 -55,12 -70,26" fill="none" stroke="{RED}" stroke-width="2.4" stroke-linecap="round"/>
 </svg>

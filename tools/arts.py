@@ -338,3 +338,181 @@ def mask(g):
     return s + splatter(6)
 
 ARTS.update({"chappal": chappal, "clock": clock, "mask": mask})
+
+# ---------- batch 2 motifs ----------
+def tie(g):
+    s = []
+    # hook / nail on wall + hanger
+    s.append(f'<circle cx="540" cy="640" r="6" fill="{INK}"/>')
+    s += sketch(arc_pts(540, 662, 16, 18, 180, 400, 14), w=2.4, passes=2)
+    s += sketch([(390, 760), (540, 682), (690, 760), (390, 760)], w=2.4)
+    # tie hanging over hanger bar
+    knot = [(512, 760), (568, 760), (558, 800), (522, 800)]
+    blade = [(522, 800), (558, 800), (600, 1080), (540, 1150), (480, 1080)]
+    s.append(fillpoly(blade, RED, 0.9)); s.append(fillpoly(knot, "#8f1d16", 0.95))
+    s += sketch(knot, closed=True, w=2); s += sketch(blade, closed=True, w=2.2)
+    for k in range(7):  # diagonal stripes
+        y = 840 + k * 40
+        s.append(f'<path d="M{505 - k*4},{y+20} L{575 + k*4},{y-12}" stroke="{INK}" stroke-width="1.2" opacity=".45"/>')
+    # a slightly loosened look: second short end peeking
+    s += sketch([(548, 800), (556, 900), (540, 930), (526, 900)], w=1.2, passes=1)
+    # ID card on lanyard hanging next to it
+    s += sketch([(640, 760), (680, 900), (720, 760)], w=1.4, passes=2)
+    card = [(645, 900), (715, 900), (715, 990), (645, 990)]
+    s.append(fillpoly(card, "#efe4c8", 0.95)); s += sketch(card, closed=True, w=1.8)
+    s.append(f'<circle cx="680" cy="928" r="13" fill="none" stroke="{INK}" stroke-width="1.4"/>')
+    s += sketch([(660, 958), (700, 958)], w=1.2, passes=1); s += sketch([(665, 972), (695, 972)], w=1, passes=1)
+    s += sketch([(160, 1220), (920, 1220)], w=1.4, passes=2)
+    return s + splatter(6)
+
+def window(g):
+    s = []
+    x0, y0, x1, y1 = 330, 660, 750, 1120
+    s.append(f'<rect x="{x0}" y="{y0}" width="{x1-x0}" height="{y1-y0}" fill="#4a3a2c" fill-opacity=".18"/>')
+    s += sketch([(x0, y0), (x1, y0), (x1, y1), (x0, y1)], closed=True, w=3)
+    s += sketch([((x0+x1)/2, y0), ((x0+x1)/2, y1)], w=2.4); s += sketch([(x0, (y0+y1)/2), (x1, (y0+y1)/2)], w=2.4)
+    # rain streaks on glass
+    for _ in range(40):
+        x = random.uniform(x0 + 10, x1 - 10); y = random.uniform(y0 + 10, y1 - 60)
+        s.append(f'<path d="M{x:.0f},{y:.0f} l-3,{random.uniform(18,45):.0f}" stroke="#5c7a8a" stroke-width="1.3" opacity=".55" stroke-linecap="round"/>')
+    # sill + a red cup on it
+    s += sketch([(x0 - 40, y1), (x1 + 40, y1), (x1 + 30, y1 + 22), (x0 - 30, y1 + 22)], closed=True, w=2.2)
+    cup = [(600, y1 - 60), (650, y1 - 60), (645, y1), (605, y1)]
+    s.append(fillpoly(cup, RED, 0.9)); s += sketch(cup, closed=True, w=1.8)
+    s += sketch(arc_pts(653, y1 - 32, 14, 16, -90, 90, 10), w=1.8, passes=1)
+    # curtains
+    for side in (-1, 1):
+        cx = x0 - 20 if side < 0 else x1 + 20
+        pts = [(cx, y0 - 30)] + [(cx + side * (10 + 12 * math.sin(k)), y0 + k * 45) for k in range(1, 11)]
+        s += sketch(pts, w=1.6, passes=2)
+    s += sketch([(x0 - 60, y0 - 30), (x1 + 60, y0 - 30)], w=2.6)
+    return s + splatter(6)
+
+def wallet(g):
+    s = []
+    w = [(360, 860), (720, 860), (720, 1110), (360, 1110)]
+    s.append(fillpoly(w, "#6b4a2e", 0.75)); s += sketch(w, closed=True, w=2.6)
+    s += sketch([(360, 980), (720, 980)], w=1.4, passes=1)
+    for x in range(372, 712, 14):
+        s.append(f'<path d="M{x},872 l6,0" stroke="#e9d7b0" stroke-width="1.4" opacity=".8"/>')
+    # empty: open flap showing few notes, one red note
+    note = [(400, 800), (680, 820), (670, 900), (395, 880)]
+    s.append(fillpoly(note, RED, 0.85)); s += sketch(note, closed=True, w=1.6)
+    s.append(f'<circle cx="540" cy="852" r="18" fill="none" stroke="{INK}" stroke-width="1.2"/>')
+    # coins
+    for (x, y) in [(790, 1090), (835, 1100), (812, 1070)]:
+        s.append(f'<ellipse cx="{x}" cy="{y}" rx="24" ry="9" fill="{GOLD}" stroke="{INK}" stroke-width="1.4"/>')
+    # bill stack / EMI paper with lines
+    p = [(220, 1000), (320, 990), (330, 1130), (230, 1140)]
+    s.append(fillpoly(p, "#f3ead3", 0.95)); s += sketch(p, closed=True, w=1.6)
+    for k in range(5):
+        s += sketch([(240, 1020 + k * 22), (312, 1013 + k * 22)], w=0.9, passes=1)
+    s += sketch([(170, 1150), (910, 1150)], w=1.4, passes=2)
+    return s + splatter(6)
+
+def letter(g):
+    s = []
+    e = [(320, 820), (760, 820), (760, 1100), (320, 1100)]
+    s.append(fillpoly(e, "#f1e6cb", 0.95)); s += sketch(e, closed=True, w=2.6)
+    s += sketch([(320, 820), (540, 975), (760, 820)], w=2)
+    s += sketch([(320, 1100), (480, 960)], w=1.2, passes=1); s += sketch([(760, 1100), (600, 960)], w=1.2, passes=1)
+    # red wax seal
+    s.append(f'<circle cx="540" cy="975" r="34" fill="{RED}" stroke="#6d140f" stroke-width="2"/>')
+    s.append(f'<path d="M525,975 q15,-22 30,0 q-15,22 -30,0z" fill="none" stroke="#f2c9b8" stroke-width="2"/>')
+    # stamp corner + address lines
+    st = [(670, 840), (735, 840), (735, 900), (670, 900)]
+    s += sketch(st, closed=True, w=1.4, passes=1)
+    s.append(f'<path d="M685,880 l12,-18 l10,12 l8,-10 l10,16z" fill="{INK}" opacity=".5"/>')
+    # "not sent" — pen lying across
+    s += sketch([(700, 1170), (920, 1060)], w=5, passes=1)
+    s.append(f'<path d="M700,1170 l-18,12 l8,-20z" fill="{INK}"/>')
+    s += sketch([(180, 1200), (900, 1200)], w=1.4, passes=2)
+    return s + splatter(6)
+
+def lock(g):
+    s = []
+    body = [(430, 920), (650, 920), (650, 1120), (430, 1120)]
+    s.append(fillpoly(body, "#8a6a3a", 0.8))
+    s.append('<defs><clipPath id="lk"><rect x="430" y="920" width="220" height="200"/></clipPath></defs>')
+    s += hatch(430, 920, 650, 1120, step=9, clip="lk", op=0.3)
+    s += sketch(body, closed=True, w=2.8)
+    # shackle open
+    s += sketch(arc_pts(500, 880, 60, 90, 180, 360, 20) + [(560, 880), (560, 920)], w=6, passes=2)
+    s += sketch([(440, 880), (440, 860)], w=6, passes=1)
+    s.append(f'<circle cx="540" cy="1000" r="14" fill="{INK}"/>'); s.append(f'<path d="M533,1004 l14,0 l-4,40 l-6,0z" fill="{INK}"/>')
+    # key on floor, red ribbon, but broken in two
+    s += sketch(arc_pts(760, 1150, 28, 28, 0, 360, 18), closed=True, w=2.4)
+    s += sketch([(788, 1150), (860, 1150)], w=3)
+    s += sketch([(880, 1158), (930, 1160), (930, 1178), (912, 1178)], w=3)  # broken part
+    s.append(f'<path d="M732,1150 c-30,-10 -40,20 -60,10" fill="none" stroke="{RED}" stroke-width="5" stroke-linecap="round"/>')
+    s += sketch([(160, 1200), (920, 1200)], w=1.4, passes=2)
+    return s + splatter(6)
+
+def bench(g):
+    s = []
+    # lamp post with warm light
+    s.append(f'<defs><radialGradient id="lg"><stop offset="0" stop-color="#ffd27a" stop-opacity=".6"/><stop offset="1" stop-color="#ffd27a" stop-opacity="0"/></radialGradient></defs>')
+    s.append(f'<circle cx="820" cy="700" r="200" fill="url(#lg)"/>')
+    s += sketch([(820, 1200), (820, 720)], w=4); s += sketch([(790, 700), (850, 700), (835, 730), (805, 730)], closed=True, w=2)
+    # bench
+    for y in (960, 990):
+        s += sketch([(260, y), (700, y)], w=4, passes=2)
+    for y in (1030, 1060):
+        s += sketch([(250, y), (710, y)], w=4, passes=2)
+    for x in (290, 670):
+        s += sketch([(x, 950), (x, 1180)], w=3.5, passes=2)
+    # a red scarf left on the bench
+    s.append(f'<path d="M430,1045 c30,-20 70,-10 90,8 c10,30 0,70 -10,110 l-25,-5 c8,-35 10,-60 2,-85 c-20,-10 -40,-8 -57,-28z" fill="{RED}" fill-opacity=".9" stroke="{INK}" stroke-width="1.6"/>')
+    # fallen leaves
+    for _ in range(9):
+        x = random.uniform(180, 760); y = random.uniform(1150, 1215)
+        s.append(f'<ellipse cx="{x:.0f}" cy="{y:.0f}" rx="12" ry="5" transform="rotate({random.uniform(-40,40):.0f} {x:.0f} {y:.0f})" fill="#b8742a" opacity=".7"/>')
+    s += sketch([(140, 1200), (940, 1200)], w=1.6, passes=2)
+    return s + splatter(6)
+
+def umbrella(g):
+    s = []
+    cx, cy = 540, 860
+    canopy = arc_pts(cx, cy, 230, 150, 180, 360, 30) + [(cx + 230, cy)]
+    scallop = []
+    for k in range(6):
+        scallop += arc_pts(cx + 230 - 38.3 * (2 * k + 1), cy, 38.3, 18, 0, 180, 6)
+    s.append(fillpoly(canopy + scallop[::-1], RED, 0.9))
+    s += sketch(canopy, w=2.6)
+    s += sketch(scallop[::-1], w=2, passes=2)
+    for k in range(1, 6):
+        x = cx + 230 - 76.6 * k
+        s += sketch([(cx, cy - 150), (x, cy + 4)], w=1.2, passes=1)
+    s += sketch([(cx, cy - 150), (cx, cy - 180)], w=3, passes=1)
+    s += sketch([(cx, cy), (cx, 1130)], w=4)
+    s += sketch(arc_pts(cx - 28, 1130, 28, 28, 0, 180, 10), w=4)
+    # rain around, none under umbrella
+    for _ in range(60):
+        x = random.uniform(110, 980); y = random.uniform(600, 1200)
+        if cx - 240 < x < cx + 240 and y > cy - 160:
+            continue
+        s.append(f'<path d="M{x:.0f},{y:.0f} l-5,16" stroke="{INK}" stroke-width="1.2" opacity=".4" stroke-linecap="round"/>')
+    # two pairs of feet: big and small under umbrella
+    for (x, w_, h) in [(495, 34, 14), (585, 22, 10)]:
+        s.append(f'<ellipse cx="{x}" cy="1190" rx="{w_}" ry="{h}" fill="{INK}" opacity=".75"/>')
+    s += sketch([(150, 1205), (930, 1205)], w=1.4, passes=2)
+    return s + splatter(4)
+
+def moon(g):
+    s = []
+    s.append(f'<defs><radialGradient id="mg"><stop offset="0" stop-color="#fff2c8" stop-opacity=".7"/><stop offset="1" stop-color="#fff2c8" stop-opacity="0"/></radialGradient><mask id="cres"><rect x="0" y="0" width="1080" height="1350" fill="white"/><circle cx="590" cy="820" r="120" fill="black"/></mask></defs>')
+    s.append(f'<circle cx="540" cy="860" r="260" fill="url(#mg)"/>')
+    s.append(f'<circle cx="540" cy="860" r="130" fill="#f3d98a" mask="url(#cres)"/>')
+    # stars
+    for _ in range(14):
+        x, y = random.uniform(130, 950), random.uniform(600, 1050)
+        if math.hypot(x - 540, y - 860) < 200: continue
+        r = random.uniform(4, 9)
+        s.append(f'<path d="M{x:.0f},{y-r:.0f} L{x+r*0.3:.0f},{y-r*0.3:.0f} L{x+r:.0f},{y:.0f} L{x+r*0.3:.0f},{y+r*0.3:.0f} L{x:.0f},{y+r:.0f} L{x-r*0.3:.0f},{y+r*0.3:.0f} L{x-r:.0f},{y:.0f} L{x-r*0.3:.0f},{y-r*0.3:.0f}Z" fill="{INK}" opacity=".6"/>')
+    # rooftop silhouette with one lit red window
+    roof = [(100, 1190), (100, 1110), (260, 1110), (260, 1075), (420, 1075), (420, 1125), (600, 1125), (600, 1060), (760, 1060), (760, 1115), (980, 1115), (980, 1190)]
+    s.append(fillpoly(roof, "#3a2a1e", 0.85)); s += sketch(roof, w=1.8, passes=1)
+    s.append(f'<rect x="660" y="1080" width="30" height="30" fill="{RED}"/>')
+    return s + splatter(4)
+
+ARTS.update({"tie": tie, "window": window, "wallet": wallet, "letter": letter, "lock": lock, "bench": bench, "umbrella": umbrella, "moon": moon})
