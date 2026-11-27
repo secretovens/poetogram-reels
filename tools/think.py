@@ -190,7 +190,13 @@ def build(it, b, tmp):
     durs = [3.4, max(5.5, 2.5 + len(q) / 22), 2.2 + 0.9 * len(it["perspective"]) + sum(len(l) for l in it["perspective"]) / 45, 6.0]
     xf = 0.5; total = sum(durs) - xf * 3
     music = f"{tmp}/{it['id']}.wav"
-    subprocess.run(["python3", os.path.join(HERE, "music2.py"), music, it.get("music", "piano"), str(it.get("seed", 1)), f"{total:.2f}"], check=True, capture_output=True)
+    trans, o = [], 0.0
+    for d in durs[:-1]:
+        o += d - xf; trans.append(o + xf / 2)
+    moodmap = {"piano": "dark", "strings": "tense", "guitar": "hopeful", "sitar": "eastern"}
+    mood = it.get("mood") or moodmap.get(it.get("music", ""), None)
+    subprocess.run(["python3", os.path.join(HERE, "music3.py"), music, str(it.get("seed", 1)), f"{total:.2f}",
+                    ",".join(f"{t:.2f}" for t in trans)] + ([mood] if mood else []), check=True, capture_output=True)
     cmd = ["ffmpeg", "-y", "-loglevel", "error"]
     for p, d in zip(pngs, durs): cmd += ["-loop", "1", "-t", f"{d:.2f}", "-framerate", "30", "-i", p]
     cmd += ["-i", music]
@@ -202,7 +208,7 @@ def build(it, b, tmp):
     fc.append(f"{last}scale=2160:3840,zoompan=z='1+0.035*on/{N}':d=1:x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':s=1080x1920:fps=30,format=yuv420p[v]")
     out = os.path.join(ROOT, "reels", it["id"] + ".mp4")
     cmd += ["-filter_complex", ";".join(fc), "-map", "[v]", "-map", "4:a", "-t", f"{total:.2f}", "-c:v", "libx264", "-preset", "medium",
-            "-crf", "20", "-c:a", "aac", "-b:a", "192k", "-movflags", "+faststart", out]
+            "-crf", "20", "-af", "loudnorm=I=-14:TP=-1.5:LRA=11", "-ar", "48000", "-c:a", "aac", "-b:a", "192k", "-movflags", "+faststart", out]
     subprocess.run(cmd, check=True, capture_output=True)
     subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", pngs[0], "-q:v", "2", os.path.join(ROOT, "covers", it["id"] + ".jpg")], check=True)
     print("ok", it["id"], it.get("motif"), it.get("theme"), f"{total:.1f}s", flush=True)
