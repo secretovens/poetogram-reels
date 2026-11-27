@@ -1,0 +1,407 @@
+{
+ "items": [
+  {
+   "motif": "grid",
+   "music": "strings",
+   "hook": "भीड़ कभी ग़लत नहीं लगती। क्योंकि उसमें ग़लती किसी एक की नहीं होती।",
+   "quote": {
+    "text": "The crowd is untruth.",
+    "author": "Søren Kierkegaard",
+    "work": "“That Individual”, 1846–1859",
+    "hi": "भीड़ अपने आप में एक झूठ है।",
+    "size": 96
+   },
+   "perspective": [
+    "भीड़ में फ़ैसला सब लेते हैं, ज़िम्मेदारी कोई नहीं।",
+    "इसीलिए भीड़ में इंसान वो कर देता है,",
+    "जो अकेले में कभी नहीं करता।"
+   ],
+   "question": "भीड़ ज़्यादा समझदार होती है, या ज़्यादा ख़तरनाक?",
+   "a": "समझदार — सबकी राय मिलकर सही होती है",
+   "b": "ख़तरनाक — वहाँ कोई ख़ुद नहीं सोचता",
+   "tags": "#its_poetogram #philosophy #kierkegaard #hindithoughts #individuality",
+   "kw": "Kierkegaard, crowd psychology, herd mentality, individuality, philosophy in Hindi",
+   "id": "naz01",
+   "no": 1,
+   "seed": 101,
+   "theme": "ink",
+   "caption": "भीड़ कभी ग़लत नहीं लगती। क्योंकि उसमें ग़लती किसी एक की नहीं होती।\n\n“The crowd is untruth.”\n— Søren Kierkegaard, “That Individual”, 1846–1859\n\nभीड़ में फ़ैसला सब लेते हैं, ज़िम्मेदारी कोई नहीं।\nइसीलिए भीड़ में इंसान वो कर देता है,\nजो अकेले में कभी नहीं करता।\n\nAap kis taraf ho?\nA — समझदार — सबकी राय मिलकर सही होती है\nB — ख़तरनाक — वहाँ कोई ख़ुद नहीं सोचता\nComment mein A ya B likho, wajah ke saath 👇\n\nSave karo, aur us dost ko bhejo jiske saath ye debate honi chahiye.\nFollow @its_poetogram — har din ek naya nazariya.\n\nनज़रिया · 01\n\nKierkegaard, crowd psychology, herd mentality, individuality, philosophy in Hindi\n\n#its_poetogram #philosophy #kierkegaard #hindithoughts #individuality"
+  },
+  {
+   "motif": "people",
+   "music": "piano",
+   "hook": "75% लोग एक बार वो जवाब दे देते हैं, जो उन्हें पता है कि ग़लत है।",
+   "quote": {
+    "text": "Three lines on a card. One obvious answer. Yet 75% of people went along with a wrong group answer at least once.",
+    "author": "Solomon Asch",
+    "work": "Conformity experiments, 1951",
+    "hi": "सवाल आसान था — अकेले खड़ा होना मुश्किल था।",
+    "size": 58
+   },
+   "perspective": [
+    "हम ग़लत होने से नहीं डरते।",
+    "हम अलग दिखने से डरते हैं।",
+    "और यही डर, हमारी आधी ज़िंदगी के फ़ैसले लेता है।"
+   ],
+   "question": "सब एक तरफ़ हों और आप जानते हों वो ग़लत हैं — आप क्या करोगे?",
+   "a": "बोल दूँगा, चाहे अकेला रह जाऊँ",
+   "b": "चुप रहूँगा, हर लड़ाई लड़ने लायक नहीं",
+   "tags": "#its_poetogram #psychology #conformity #hindithoughts #individuality",
+   "kw": "Asch conformity experiment, peer pressure, psychology in Hindi, think for yourself",
+   "id": "naz02",
+   "no": 2,
+   "seed": 102,
+   "theme": "ivory",
+   "caption": "75% लोग एक बार वो जवाब दे देते हैं, जो उन्हें पता है कि ग़लत है।\n\n“Three lines on a card. One obvious answer. Yet 75% of people went along with a wrong group answer at least once.”\n— Solomon Asch, Conformity experiments, 1951\n\nहम ग़लत होने से नहीं डरते।\nहम अलग दिखने से डरते हैं।\nऔर यही डर, हमारी आधी ज़िंदगी के फ़ैसले लेता है।\n\nAap kis taraf ho?\nA — बोल दूँगा, चाहे अकेला रह जाऊँ\nB — चुप रहूँगा, हर लड़ाई लड़ने लायक नहीं\nComment mein A ya B likho, wajah ke saath 👇\n\nSave karo, aur us dost ko bhejo jiske saath ye debate honi chahiye.\nFollow @its_poetogram — har din ek naya nazariya.\n\nनज़रिया · 02\n\nAsch conformity experiment, peer pressure, psychology in Hindi, think for yourself\n\n#its_poetogram #psychology #conformity #hindithoughts #individuality"
+  },
+  {
+   "motif": "arrows",
+   "music": "guitar",
+   "hook": "आपकी ज़्यादातर राय, असल में आपकी है ही नहीं।",
+   "quote": {
+    "text": "Most people are other people. Their thoughts are some one else's opinions, their lives a mimicry, their passions a quotation.",
+    "author": "Oscar Wilde",
+    "work": "De Profundis, 1905",
+    "size": 58
+   },
+   "perspective": [
+    "करियर — किसी रिश्तेदार की सलाह।",
+    "सपने — किसी और की स्टोरी से।",
+    "डर — समाज से उधार।",
+    "तो इस सब में ‘आप’ कहाँ हो?"
+   ],
+   "question": "क्या पूरी तरह ‘ओरिजिनल’ इंसान होना मुमकिन भी है?",
+   "a": "हाँ — अगर इंसान ख़ुद से सवाल करे",
+   "b": "नहीं — हम सब किसी न किसी की कॉपी हैं",
+   "tags": "#its_poetogram #oscarwilde #philosophy #hindithoughts #selfawareness",
+   "kw": "Oscar Wilde De Profundis, be yourself, original thinking, philosophy in Hindi",
+   "id": "naz03",
+   "no": 3,
+   "seed": 103,
+   "theme": "slate",
+   "caption": "आपकी ज़्यादातर राय, असल में आपकी है ही नहीं।\n\n“Most people are other people. Their thoughts are some one else's opinions, their lives a mimicry, their passions a quotation.”\n— Oscar Wilde, De Profundis, 1905\n\nकरियर — किसी रिश्तेदार की सलाह।\nसपने — किसी और की स्टोरी से।\nडर — समाज से उधार।\nतो इस सब में ‘आप’ कहाँ हो?\n\nAap kis taraf ho?\nA — हाँ — अगर इंसान ख़ुद से सवाल करे\nB — नहीं — हम सब किसी न किसी की कॉपी हैं\nComment mein A ya B likho, wajah ke saath 👇\n\nSave karo, aur us dost ko bhejo jiske saath ye debate honi chahiye.\nFollow @its_poetogram — har din ek naya nazariya.\n\nनज़रिया · 03\n\nOscar Wilde De Profundis, be yourself, original thinking, philosophy in Hindi\n\n#its_poetogram #oscarwilde #philosophy #hindithoughts #selfawareness"
+  },
+  {
+   "motif": "flock",
+   "music": "strings",
+   "hook": "बहुमत सही है — ये बात भी बहुमत ने ही तय की है।",
+   "quote": {
+    "text": "Whenever you find yourself on the side of the majority, it is time to pause and reflect.",
+    "author": "Mark Twain",
+    "work": "Notebook, 1904",
+    "hi": "जब आप बहुमत के साथ हों — रुककर सोचने का वक़्त है।",
+    "size": 66
+   },
+   "perspective": [
+    "सौ लोग किसी बात को मानें, तो वो लोकप्रिय हो जाती है।",
+    "सही नहीं।",
+    "सच वोटिंग से तय नहीं होता।"
+   ],
+   "question": "किसी चीज़ का ‘सबको पसंद होना’ — सबूत है या ख़तरे की घंटी?",
+   "a": "सबूत — इतने लोग ग़लत नहीं हो सकते",
+   "b": "घंटी — भीड़ अक्सर आसान रास्ता चुनती है",
+   "tags": "#its_poetogram #marktwain #philosophy #hindithoughts #thinkdifferent",
+   "kw": "Mark Twain quote, majority vs truth, independent thinking, philosophy in Hindi",
+   "id": "naz04",
+   "no": 4,
+   "seed": 104,
+   "theme": "wine",
+   "caption": "बहुमत सही है — ये बात भी बहुमत ने ही तय की है।\n\n“Whenever you find yourself on the side of the majority, it is time to pause and reflect.”\n— Mark Twain, Notebook, 1904\n\nसौ लोग किसी बात को मानें, तो वो लोकप्रिय हो जाती है।\nसही नहीं।\nसच वोटिंग से तय नहीं होता।\n\nAap kis taraf ho?\nA — सबूत — इतने लोग ग़लत नहीं हो सकते\nB — घंटी — भीड़ अक्सर आसान रास्ता चुनती है\nComment mein A ya B likho, wajah ke saath 👇\n\nSave karo, aur us dost ko bhejo jiske saath ye debate honi chahiye.\nFollow @its_poetogram — har din ek naya nazariya.\n\nनज़रिया · 04\n\nMark Twain quote, majority vs truth, independent thinking, philosophy in Hindi\n\n#its_poetogram #marktwain #philosophy #hindithoughts #thinkdifferent"
+  },
+  {
+   "motif": "steps",
+   "music": "guitar",
+   "hook": "जो पीछे रह गया, ज़रूरी नहीं वो हार गया।",
+   "quote": {
+    "text": "If a man does not keep pace with his companions, perhaps it is because he hears a different drummer.",
+    "author": "Henry David Thoreau",
+    "work": "Walden, 1854",
+    "hi": "जो साथियों के क़दम से नहीं चलता, शायद वो कोई और धुन सुन रहा है।",
+    "size": 62
+   },
+   "perspective": [
+    "25 तक नौकरी, 28 तक शादी, 30 तक घर —",
+    "ये टाइमटेबल किसने बनाया?",
+    "और आपने इस पर साइन कब किया?"
+   ],
+   "question": "ज़िंदगी की ‘सही उम्र’ वाली लिस्ट — गाइड है या जेल?",
+   "a": "गाइड — कुछ चीज़ों का वक़्त सच में होता है",
+   "b": "जेल — हर इंसान की घड़ी अलग है",
+   "tags": "#its_poetogram #thoreau #philosophy #hindithoughts #lifeadvice",
+   "kw": "Thoreau Walden, different drummer, own pace in life, society timeline, philosophy in Hindi",
+   "id": "naz05",
+   "no": 5,
+   "seed": 105,
+   "theme": "ink",
+   "caption": "जो पीछे रह गया, ज़रूरी नहीं वो हार गया।\n\n“If a man does not keep pace with his companions, perhaps it is because he hears a different drummer.”\n— Henry David Thoreau, Walden, 1854\n\n25 तक नौकरी, 28 तक शादी, 30 तक घर —\nये टाइमटेबल किसने बनाया?\nऔर आपने इस पर साइन कब किया?\n\nAap kis taraf ho?\nA — गाइड — कुछ चीज़ों का वक़्त सच में होता है\nB — जेल — हर इंसान की घड़ी अलग है\nComment mein A ya B likho, wajah ke saath 👇\n\nSave karo, aur us dost ko bhejo jiske saath ye debate honi chahiye.\nFollow @its_poetogram — har din ek naya nazariya.\n\nनज़रिया · 05\n\nThoreau Walden, different drummer, own pace in life, society timeline, philosophy in Hindi\n\n#its_poetogram #thoreau #philosophy #hindithoughts #lifeadvice"
+  },
+  {
+   "motif": "ripple",
+   "music": "piano",
+   "hook": "आप जितने लोगों को रोज़ देखते हो, उतने थोड़े-थोड़े बदल जाते हो।",
+   "quote": {
+    "text": "Do you ask me what you should regard as especially to be avoided? I say, crowds.",
+    "author": "Seneca",
+    "work": "Letters to Lucilius, VII",
+    "hi": "किससे सबसे ज़्यादा बचना चाहिए? भीड़ से।",
+    "size": 64
+   },
+   "perspective": [
+    "2000 साल पहले भीड़ बाज़ार में होती थी।",
+    "आज जेब में है — हर स्क्रॉल के साथ।",
+    "सवाल ये नहीं कि आप क्या देख रहे हो,",
+    "सवाल ये है कि वो आपको क्या बना रहा है।"
+   ],
+   "question": "क्या आज का इंसान कभी सच में अकेला होता है?",
+   "a": "हाँ — फ़ोन बंद करो, अकेलापन वहीं है",
+   "b": "नहीं — भीड़ अब दिमाग़ के अंदर रहती है",
+   "tags": "#its_poetogram #seneca #stoicism #hindithoughts #digitaldetox",
+   "kw": "Seneca letters, stoicism in Hindi, avoid the crowd, social media and mind",
+   "id": "naz06",
+   "no": 6,
+   "seed": 106,
+   "theme": "ivory",
+   "caption": "आप जितने लोगों को रोज़ देखते हो, उतने थोड़े-थोड़े बदल जाते हो।\n\n“Do you ask me what you should regard as especially to be avoided? I say, crowds.”\n— Seneca, Letters to Lucilius, VII\n\n2000 साल पहले भीड़ बाज़ार में होती थी।\nआज जेब में है — हर स्क्रॉल के साथ।\nसवाल ये नहीं कि आप क्या देख रहे हो,\nसवाल ये है कि वो आपको क्या बना रहा है।\n\nAap kis taraf ho?\nA — हाँ — फ़ोन बंद करो, अकेलापन वहीं है\nB — नहीं — भीड़ अब दिमाग़ के अंदर रहती है\nComment mein A ya B likho, wajah ke saath 👇\n\nSave karo, aur us dost ko bhejo jiske saath ye debate honi chahiye.\nFollow @its_poetogram — har din ek naya nazariya.\n\nनज़रिया · 06\n\nSeneca letters, stoicism in Hindi, avoid the crowd, social media and mind\n\n#its_poetogram #seneca #stoicism #hindithoughts #digitaldetox"
+  },
+  {
+   "motif": "chairs",
+   "music": "strings",
+   "hook": "इंसान की सबसे बड़ी समस्या — वो दस मिनट अकेला नहीं बैठ सकता।",
+   "quote": {
+    "text": "All the unhappiness of men arises from one single fact, that they cannot stay quietly in their own chamber.",
+    "author": "Blaise Pascal",
+    "work": "Pensées, 1670",
+    "size": 60
+   },
+   "perspective": [
+    "2014 में University of Virginia के एक प्रयोग में,",
+    "कई लोगों ने 15 मिनट अकेले सोचने के बजाय",
+    "ख़ुद को हल्का बिजली का झटका देना चुना।"
+   ],
+   "question": "आप 15 मिनट बिना फ़ोन के, सिर्फ़ अपने साथ बैठ सकते हो?",
+   "a": "हाँ — मुझे अपने साथ रहना आता है",
+   "b": "सच कहूँ तो नहीं — दिमाग़ चैन नहीं लेता",
+   "tags": "#its_poetogram #pascal #philosophy #hindithoughts #solitude",
+   "kw": "Blaise Pascal Pensees, sitting alone experiment, solitude, philosophy in Hindi",
+   "id": "naz07",
+   "no": 7,
+   "seed": 107,
+   "theme": "slate",
+   "caption": "इंसान की सबसे बड़ी समस्या — वो दस मिनट अकेला नहीं बैठ सकता।\n\n“All the unhappiness of men arises from one single fact, that they cannot stay quietly in their own chamber.”\n— Blaise Pascal, Pensées, 1670\n\n2014 में University of Virginia के एक प्रयोग में,\nकई लोगों ने 15 मिनट अकेले सोचने के बजाय\nख़ुद को हल्का बिजली का झटका देना चुना।\n\nAap kis taraf ho?\nA — हाँ — मुझे अपने साथ रहना आता है\nB — सच कहूँ तो नहीं — दिमाग़ चैन नहीं लेता\nComment mein A ya B likho, wajah ke saath 👇\n\nSave karo, aur us dost ko bhejo jiske saath ye debate honi chahiye.\nFollow @its_poetogram — har din ek naya nazariya.\n\nनज़रिया · 07\n\nBlaise Pascal Pensees, sitting alone experiment, solitude, philosophy in Hindi\n\n#its_poetogram #pascal #philosophy #hindithoughts #solitude"
+  },
+  {
+   "motif": "ripple",
+   "music": "guitar",
+   "hook": "आपको चीज़ें परेशान नहीं करतीं। उनके बारे में आपकी कहानी करती है।",
+   "quote": {
+    "text": "Men are disturbed not by things, but by the principles and notions which they form concerning things.",
+    "author": "Epictetus",
+    "work": "Enchiridion, 5",
+    "hi": "इंसान चीज़ों से नहीं, उनके बारे में अपनी सोच से परेशान होता है।",
+    "size": 62
+   },
+   "perspective": [
+    "बॉस का मैसेज — ‘Call me’। सिर्फ़ दो शब्द।",
+    "बाक़ी पूरी डरावनी फ़िल्म,",
+    "आपका दिमाग़ ख़ुद बनाता है।"
+   ],
+   "question": "क्या हर दुःख सिर्फ़ नज़रिया है?",
+   "a": "हाँ — हालात नहीं, सोच दुख देती है",
+   "b": "नहीं — ये बात आराम में बैठे लोगों को ही अच्छी लगती है",
+   "tags": "#its_poetogram #stoicism #epictetus #hindithoughts #mindset",
+   "kw": "Epictetus Enchiridion, stoicism in Hindi, overthinking, perspective",
+   "id": "naz08",
+   "no": 8,
+   "seed": 108,
+   "theme": "wine",
+   "caption": "आपको चीज़ें परेशान नहीं करतीं। उनके बारे में आपकी कहानी करती है।\n\n“Men are disturbed not by things, but by the principles and notions which they form concerning things.”\n— Epictetus, Enchiridion, 5\n\nबॉस का मैसेज — ‘Call me’। सिर्फ़ दो शब्द।\nबाक़ी पूरी डरावनी फ़िल्म,\nआपका दिमाग़ ख़ुद बनाता है।\n\nAap kis taraf ho?\nA — हाँ — हालात नहीं, सोच दुख देती है\nB — नहीं — ये बात आराम में बैठे लोगों को ही अच्छी लगती है\nComment mein A ya B likho, wajah ke saath 👇\n\nSave karo, aur us dost ko bhejo jiske saath ye debate honi chahiye.\nFollow @its_poetogram — har din ek naya nazariya.\n\nनज़रिया · 08\n\nEpictetus Enchiridion, stoicism in Hindi, overthinking, perspective\n\n#its_poetogram #stoicism #epictetus #hindithoughts #mindset"
+  },
+  {
+   "motif": "door",
+   "music": "sitar",
+   "hook": "किसी और की ज़िंदगी अच्छे से जीने से बेहतर है, अपनी ज़िंदगी कच्चे तरीक़े से जीना।",
+   "quote": {
+    "text": "स्वधर्मे निधनं श्रेयः परधर्मो भयावहः",
+    "author": "Bhagavad Gita",
+    "work": "3.35 — “Better one's own duty, though imperfect, than another's well performed.”",
+    "size": 76
+   },
+   "perspective": [
+    "हज़ारों साल पुरानी बात,",
+    "आज के LinkedIn पर सबसे ज़्यादा लागू होती है।",
+    "हम दूसरों का करियर, दूसरों की रफ़्तार से जी रहे हैं।"
+   ],
+   "question": "अपना रास्ता — अगर पैसे कम दे, तब भी चुनोगे?",
+   "a": "हाँ — अपनी शर्तों पर कम भी ज़्यादा है",
+   "b": "नहीं — पहले पैसा, पैशन बाद में",
+   "tags": "#its_poetogram #bhagavadgita #philosophy #hindithoughts #careerchoice",
+   "kw": "Bhagavad Gita 3.35 swadharma, own path, career choice, philosophy in Hindi",
+   "id": "naz09",
+   "no": 9,
+   "seed": 109,
+   "theme": "ink",
+   "caption": "किसी और की ज़िंदगी अच्छे से जीने से बेहतर है, अपनी ज़िंदगी कच्चे तरीक़े से जीना।\n\n“स्वधर्मे निधनं श्रेयः परधर्मो भयावहः”\n— Bhagavad Gita, 3.35 — “Better one's own duty, though imperfect, than another's well performed.”\n\nहज़ारों साल पुरानी बात,\nआज के LinkedIn पर सबसे ज़्यादा लागू होती है।\nहम दूसरों का करियर, दूसरों की रफ़्तार से जी रहे हैं।\n\nAap kis taraf ho?\nA — हाँ — अपनी शर्तों पर कम भी ज़्यादा है\nB — नहीं — पहले पैसा, पैशन बाद में\nComment mein A ya B likho, wajah ke saath 👇\n\nSave karo, aur us dost ko bhejo jiske saath ye debate honi chahiye.\nFollow @its_poetogram — har din ek naya nazariya.\n\nनज़रिया · 09\n\nBhagavad Gita 3.35 swadharma, own path, career choice, philosophy in Hindi\n\n#its_poetogram #bhagavadgita #philosophy #hindithoughts #careerchoice"
+  },
+  {
+   "motif": "grid",
+   "music": "piano",
+   "hook": "ज़्यादातर लोग ज़िंदगी जीते नहीं, बस दोहराते हैं।",
+   "quote": {
+    "text": "The unexamined life is not worth living.",
+    "author": "Socrates",
+    "work": "Plato, Apology, 399 BC",
+    "hi": "बिना जाँची-परखी ज़िंदगी जीने लायक नहीं।",
+    "size": 84
+   },
+   "perspective": [
+    "वही रूटीन, वही राय, वही डर — बस साल बदलते हैं।",
+    "30 साल का अनुभव, कई बार",
+    "1 साल का अनुभव होता है — 30 बार दोहराया हुआ।"
+   ],
+   "question": "ज़्यादा सोचने वाले ज़्यादा ख़ुश होते हैं, या कम सोचने वाले?",
+   "a": "ज़्यादा सोचने वाले — वो ज़िंदगी समझते हैं",
+   "b": "कम सोचने वाले — वो ज़िंदगी जीते हैं",
+   "tags": "#its_poetogram #socrates #philosophy #hindithoughts #selfreflection",
+   "kw": "Socrates unexamined life, Plato Apology, self reflection, philosophy in Hindi",
+   "id": "naz10",
+   "no": 10,
+   "seed": 110,
+   "theme": "ivory",
+   "caption": "ज़्यादातर लोग ज़िंदगी जीते नहीं, बस दोहराते हैं।\n\n“The unexamined life is not worth living.”\n— Socrates, Plato, Apology, 399 BC\n\nवही रूटीन, वही राय, वही डर — बस साल बदलते हैं।\n30 साल का अनुभव, कई बार\n1 साल का अनुभव होता है — 30 बार दोहराया हुआ।\n\nAap kis taraf ho?\nA — ज़्यादा सोचने वाले — वो ज़िंदगी समझते हैं\nB — कम सोचने वाले — वो ज़िंदगी जीते हैं\nComment mein A ya B likho, wajah ke saath 👇\n\nSave karo, aur us dost ko bhejo jiske saath ye debate honi chahiye.\nFollow @its_poetogram — har din ek naya nazariya.\n\nनज़रिया · 10\n\nSocrates unexamined life, Plato Apology, self reflection, philosophy in Hindi\n\n#its_poetogram #socrates #philosophy #hindithoughts #selfreflection"
+  },
+  {
+   "motif": "arrows",
+   "music": "strings",
+   "hook": "जो सबसे ज़्यादा यक़ीन से बोलता है, ज़रूरी नहीं वो सबसे ज़्यादा जानता है।",
+   "quote": {
+    "text": "The stupid are cocksure while the intelligent are full of doubt.",
+    "author": "Bertrand Russell",
+    "work": "The Triumph of Stupidity, 1933",
+    "hi": "मूर्ख पूरे यक़ीन में रहते हैं, समझदार शक में।",
+    "size": 74
+   },
+   "perspective": [
+    "इंटरनेट पर सबसे तेज़ आवाज़ें, सबसे पक्की राय वाली हैं।",
+    "और सोचने वाले लोग —",
+    "‘शायद’ कहकर चुप हो जाते हैं।"
+   ],
+   "question": "शक करना कमज़ोरी है या समझदारी?",
+   "a": "समझदारी — शक ही सोच की शुरुआत है",
+   "b": "कमज़ोरी — दुनिया यक़ीन वालों की सुनती है",
+   "tags": "#its_poetogram #bertrandrussell #philosophy #hindithoughts #criticalthinking",
+   "kw": "Bertrand Russell quote, Dunning Kruger, confidence vs knowledge, philosophy in Hindi",
+   "id": "naz11",
+   "no": 11,
+   "seed": 111,
+   "theme": "slate",
+   "caption": "जो सबसे ज़्यादा यक़ीन से बोलता है, ज़रूरी नहीं वो सबसे ज़्यादा जानता है।\n\n“The stupid are cocksure while the intelligent are full of doubt.”\n— Bertrand Russell, The Triumph of Stupidity, 1933\n\nइंटरनेट पर सबसे तेज़ आवाज़ें, सबसे पक्की राय वाली हैं।\nऔर सोचने वाले लोग —\n‘शायद’ कहकर चुप हो जाते हैं।\n\nAap kis taraf ho?\nA — समझदारी — शक ही सोच की शुरुआत है\nB — कमज़ोरी — दुनिया यक़ीन वालों की सुनती है\nComment mein A ya B likho, wajah ke saath 👇\n\nSave karo, aur us dost ko bhejo jiske saath ye debate honi chahiye.\nFollow @its_poetogram — har din ek naya nazariya.\n\nनज़रिया · 11\n\nBertrand Russell quote, Dunning Kruger, confidence vs knowledge, philosophy in Hindi\n\n#its_poetogram #bertrandrussell #philosophy #hindithoughts #criticalthinking"
+  },
+  {
+   "motif": "umbrellas",
+   "music": "piano",
+   "hook": "आपसे सब छीना जा सकता है। एक चीज़ को छोड़कर।",
+   "quote": {
+    "text": "Everything can be taken from a man but one thing: the last of the human freedoms — to choose one's attitude in any given set of circumstances.",
+    "author": "Viktor E. Frankl",
+    "work": "Man's Search for Meaning, 1946",
+    "size": 56
+   },
+   "perspective": [
+    "ये बात किसी मोटिवेशनल स्पीकर ने नहीं,",
+    "नाज़ी कैंप से ज़िंदा लौटे",
+    "एक डॉक्टर ने लिखी थी।"
+   ],
+   "question": "क्या attitude सच में चुना जा सकता है?",
+   "a": "हाँ — आख़िरी आज़ादी वही है",
+   "b": "नहीं — वो भी हालात ही तय करते हैं",
+   "tags": "#its_poetogram #viktorfrankl #philosophy #hindithoughts #mindset",
+   "kw": "Viktor Frankl Man's Search for Meaning, choose your attitude, resilience, philosophy in Hindi",
+   "id": "naz12",
+   "no": 12,
+   "seed": 112,
+   "theme": "wine",
+   "caption": "आपसे सब छीना जा सकता है। एक चीज़ को छोड़कर।\n\n“Everything can be taken from a man but one thing: the last of the human freedoms — to choose one's attitude in any given set of circumstances.”\n— Viktor E. Frankl, Man's Search for Meaning, 1946\n\nये बात किसी मोटिवेशनल स्पीकर ने नहीं,\nनाज़ी कैंप से ज़िंदा लौटे\nएक डॉक्टर ने लिखी थी।\n\nAap kis taraf ho?\nA — हाँ — आख़िरी आज़ादी वही है\nB — नहीं — वो भी हालात ही तय करते हैं\nComment mein A ya B likho, wajah ke saath 👇\n\nSave karo, aur us dost ko bhejo jiske saath ye debate honi chahiye.\nFollow @its_poetogram — har din ek naya nazariya.\n\nनज़रिया · 12\n\nViktor Frankl Man's Search for Meaning, choose your attitude, resilience, philosophy in Hindi\n\n#its_poetogram #viktorfrankl #philosophy #hindithoughts #mindset"
+  },
+  {
+   "motif": "steps",
+   "music": "guitar",
+   "hook": "आज जो फ़ैसला ले रहे हो, उसका मतलब शायद 10 साल बाद समझ आएगा।",
+   "quote": {
+    "text": "Life can only be understood backwards; but it must be lived forwards.",
+    "author": "Søren Kierkegaard",
+    "work": "Journals, 1843",
+    "hi": "ज़िंदगी पीछे मुड़कर समझ आती है, पर जीनी आगे देखकर पड़ती है।",
+    "size": 70
+   },
+   "perspective": [
+    "इसीलिए ‘पक्का यक़ीन’ होने का इंतज़ार करने वाले,",
+    "अक्सर पूरी ज़िंदगी",
+    "इंतज़ार ही करते रह जाते हैं।"
+   ],
+   "question": "बड़ा फ़ैसला — दिल से या डेटा से?",
+   "a": "दिल से — डेटा कभी पूरा नहीं होता",
+   "b": "डेटा से — दिल अक्सर धोखा देता है",
+   "tags": "#its_poetogram #kierkegaard #philosophy #hindithoughts #decisionmaking",
+   "kw": "Kierkegaard quote, decision making, life lessons, philosophy in Hindi",
+   "id": "naz13",
+   "no": 13,
+   "seed": 113,
+   "theme": "ink",
+   "caption": "आज जो फ़ैसला ले रहे हो, उसका मतलब शायद 10 साल बाद समझ आएगा।\n\n“Life can only be understood backwards; but it must be lived forwards.”\n— Søren Kierkegaard, Journals, 1843\n\nइसीलिए ‘पक्का यक़ीन’ होने का इंतज़ार करने वाले,\nअक्सर पूरी ज़िंदगी\nइंतज़ार ही करते रह जाते हैं।\n\nAap kis taraf ho?\nA — दिल से — डेटा कभी पूरा नहीं होता\nB — डेटा से — दिल अक्सर धोखा देता है\nComment mein A ya B likho, wajah ke saath 👇\n\nSave karo, aur us dost ko bhejo jiske saath ye debate honi chahiye.\nFollow @its_poetogram — har din ek naya nazariya.\n\nनज़रिया · 13\n\nKierkegaard quote, decision making, life lessons, philosophy in Hindi\n\n#its_poetogram #kierkegaard #philosophy #hindithoughts #decisionmaking"
+  },
+  {
+   "motif": "door",
+   "music": "piano",
+   "hook": "भीड़ का हिस्सा बनना आसान है। ख़ुद का होना — एक हुनर है।",
+   "quote": {
+    "text": "The greatest thing in the world is to know how to belong to oneself.",
+    "author": "Michel de Montaigne",
+    "work": "Essays, “Of Solitude”, 1580",
+    "hi": "दुनिया की सबसे बड़ी बात — ख़ुद का होना आना।",
+    "size": 70
+   },
+   "perspective": [
+    "हम ख़ुद को नौकरी, लोगों और नोटिफ़िकेशन्स में बाँट देते हैं —",
+    "और फिर पूछते हैं,",
+    "थकान क्यों है?"
+   ],
+   "question": "आपका कितना हिस्सा सच में ‘आपका’ है?",
+   "a": "ज़्यादातर — मैं अपनी शर्तों पर जीता हूँ",
+   "b": "बहुत कम — बाक़ी सब दूसरों के नाम है",
+   "tags": "#its_poetogram #montaigne #philosophy #hindithoughts #selfworth",
+   "kw": "Montaigne Essays Of Solitude, belong to yourself, self worth, philosophy in Hindi",
+   "id": "naz14",
+   "no": 14,
+   "seed": 114,
+   "theme": "ivory",
+   "caption": "भीड़ का हिस्सा बनना आसान है। ख़ुद का होना — एक हुनर है।\n\n“The greatest thing in the world is to know how to belong to oneself.”\n— Michel de Montaigne, Essays, “Of Solitude”, 1580\n\nहम ख़ुद को नौकरी, लोगों और नोटिफ़िकेशन्स में बाँट देते हैं —\nऔर फिर पूछते हैं,\nथकान क्यों है?\n\nAap kis taraf ho?\nA — ज़्यादातर — मैं अपनी शर्तों पर जीता हूँ\nB — बहुत कम — बाक़ी सब दूसरों के नाम है\nComment mein A ya B likho, wajah ke saath 👇\n\nSave karo, aur us dost ko bhejo jiske saath ye debate honi chahiye.\nFollow @its_poetogram — har din ek naya nazariya.\n\nनज़रिया · 14\n\nMontaigne Essays Of Solitude, belong to yourself, self worth, philosophy in Hindi\n\n#its_poetogram #montaigne #philosophy #hindithoughts #selfworth"
+  },
+  {
+   "motif": "hill",
+   "music": "strings",
+   "hook": "शायद ज़िंदगी का कोई ‘मतलब’ नहीं है। और यही सबसे अच्छी ख़बर है।",
+   "quote": {
+    "text": "One must imagine Sisyphus happy.",
+    "author": "Albert Camus",
+    "work": "The Myth of Sisyphus, 1942",
+    "hi": "सिसिफ़स को ख़ुश ही मानना होगा।",
+    "size": 88
+   },
+   "perspective": [
+    "पत्थर रोज़ नीचे लुढ़केगा — यही सज़ा है।",
+    "पर अगर चढ़ना ही आपका चुनाव बन जाए,",
+    "तो सज़ा, आज़ादी बन जाती है।"
+   ],
+   "question": "ज़िंदगी का मतलब ढूँढा जाता है, या बनाया जाता है?",
+   "a": "ढूँढा जाता है — वो पहले से कहीं है",
+   "b": "बनाया जाता है — हर इंसान ख़ुद लिखता है",
+   "tags": "#its_poetogram #camus #philosophy #hindithoughts #meaningoflife",
+   "kw": "Albert Camus Myth of Sisyphus, absurdism, meaning of life, philosophy in Hindi",
+   "id": "naz15",
+   "no": 15,
+   "seed": 115,
+   "theme": "slate",
+   "caption": "शायद ज़िंदगी का कोई ‘मतलब’ नहीं है। और यही सबसे अच्छी ख़बर है।\n\n“One must imagine Sisyphus happy.”\n— Albert Camus, The Myth of Sisyphus, 1942\n\nपत्थर रोज़ नीचे लुढ़केगा — यही सज़ा है।\nपर अगर चढ़ना ही आपका चुनाव बन जाए,\nतो सज़ा, आज़ादी बन जाती है।\n\nAap kis taraf ho?\nA — ढूँढा जाता है — वो पहले से कहीं है\nB — बनाया जाता है — हर इंसान ख़ुद लिखता है\nComment mein A ya B likho, wajah ke saath 👇\n\nSave karo, aur us dost ko bhejo jiske saath ye debate honi chahiye.\nFollow @its_poetogram — har din ek naya nazariya.\n\nनज़रिया · 15\n\nAlbert Camus Myth of Sisyphus, absurdism, meaning of life, philosophy in Hindi\n\n#its_poetogram #camus #philosophy #hindithoughts #meaningoflife"
+  }
+ ]
+}

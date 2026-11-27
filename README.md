@@ -10,3 +10,8 @@ Daily plan: 3 NEW reels as Trial Reels (non-followers only, graduation MANUAL) �
 - `lines_used.md` — every line already used (never repeat)
 - Rules: never use the same style twice in a row; max 5 hashtags; captions = hook question, the lines, CTA (save/send/comment), series line, keyword line, hashtags.
 - Old v2 tools (build_reel.py, make_card.py, make_music.py) kept for reference.
+
+## v4 (27 Nov night) — "नज़रिया · PERSPECTIVE" series (current)
+Owner direction: no emotional/family/relationship lines, no lectures. Life, individuality, the crowd, self-value — a different perspective that sparks debate, backed by verified quotes from writers/philosophers/books/studies. Classy, international, brand-grade. No carousels. Owner posts his own reel daily at 8 PM.
+- `thoughts.json` + `tools/think.py thoughts.json <ids>` — 4-slide reels (~20 s): hook → quote (original language + author, work, year, optional Hindi gist) → perspective (Hindi) → debate question with options A/B + "Comment A या B". Themes ink/ivory/slate/wine rotate; motif = a quiet crowd of identical marks with one gold mark that differs (grid, flock, people, steps, chairs, ripple, arrows, umbrellas, hill, door).
+- Posting: 5 new trial reels a day, the same 5 as main reels the next day.
