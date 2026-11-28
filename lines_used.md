@@ -32,3 +32,8 @@
 - sach30: बीस में दुनिया बदलनी थी, पैंतीस में समझ आया — ख़ुद को बचा लूँ, वही काफ़ी है।
 
 Earlier cards (not in series): हँसकर खोना और खोकर हँसना… ; बचपन में कागज़ की नाव… ; …एक दिया काफ़ी है ; …सिर्फ़ याद में आते हैं ; जो डोर से बँधा था… ; पिंजरा सोने का भी हो… ; माँ ने पूछा — खाना खाया?
+
+## अल्फ़ाज़ (28 Nov 2026) — quotes used
+- alf01 Ghalib — हज़ारों ख़्वाहिशें ऐसी · alf02 Tagore — miss the sun/stars · alf03 Gibran — pain/shell · alf04 Kabir — बुरा जो देखन · alf05 Shakespeare — give sorrow words
+- alf06 Mir — पत्ता पत्ता बूटा बूटा · alf07 Ghalib — रंज से ख़ूगर · alf08 Wilde — love oneself · alf09 Seneca — imagination · alf10 Kabir — धीरे-धीरे रे मना
+- alf11 Gibran — sorrow carves/joy · alf12 Dickinson — Hope is the thing with feathers · alf13 Tagore — kissed my soul with pain · alf14 Ghalib — जन्नत की हक़ीक़त · alf15 Mir — राह-ए-दूर-ए-इश्क़

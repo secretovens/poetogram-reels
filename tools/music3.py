@@ -3,7 +3,7 @@
 Layers: felt-piano motif + broken chords, warm string pad, cello root, soft pulse that enters after the hook,
 shimmer on the last slide, and a whoosh + low boom on every slide change.
 Usage: python3 music3.py out.wav SEED SECONDS [t1,t2,t3 transition times] [mood]
-mood: dark | hopeful | eastern | tense   (default from seed)"""
+mood: dark | hopeful | eastern | tense   (default from seed); 6th arg "soft" = no pulse, gentle transitions (Alfaaz)"""
 import sys, numpy as np
 from scipy.io import wavfile
 from scipy.signal import fftconvolve, butter, lfilter, sosfilt
@@ -72,7 +72,7 @@ MOODS = {
     "tense":   dict(prog=[[52,55,59],[48,52,55],[50,53,57],[47,50,54]], motif=[0,1,0,3,2,1,0,-2]),       # Em C Dm Bdim
 }
 
-def compose(seed, dur, trans, mood=None):
+def compose(seed, dur, trans, mood=None, soft=False):
     rng = np.random.default_rng(seed)
     mood = mood or list(MOODS)[seed % len(MOODS)]
     M = MOODS[mood]; prog = M["prog"]
@@ -97,7 +97,7 @@ def compose(seed, dur, trans, mood=None):
             if (j % 2 == 1) and rng.random() < .3: continue
             add(mix, felt_piano(hz(n), 2.4, .26 + rng.uniform(-.04, .04), rng), t0 + j * beat / 2 + (beat if t0 < first else 0))
         # pulse after hook
-        if t0 >= first - 0.01:
+        if t0 >= first - 0.01 and not soft:
             add(mix, kick(.32), t0); add(mix, kick(.22), t0 + 2 * beat)
         # shimmer on last slide
         if t0 >= last - bar * .5:
@@ -105,7 +105,7 @@ def compose(seed, dur, trans, mood=None):
                 add(mix, felt_piano(hz(ch[j % 3] + 24), 1.6, .09, rng), t0 + j * beat / 2)
     # transitions
     for t in trans:
-        add(mix, whoosh(.7, rng, .10), t - .45); add(mix, boom(.3), t - .05)
+        add(mix, whoosh(.7, rng, .05 if soft else .10), t - .45); add(mix, boom(.14 if soft else .3), t - .05)
     # reverb
     ir_t = np.arange(int(SR * 2.8)) / SR
     ir = rng.normal(0, 1, len(ir_t)) * np.exp(-ir_t * 2.3)
@@ -121,6 +121,7 @@ def compose(seed, dur, trans, mood=None):
 if __name__ == "__main__":
     out, seed, dur = sys.argv[1], int(sys.argv[2]), float(sys.argv[3])
     trans = [float(x) for x in sys.argv[4].split(",")] if len(sys.argv) > 4 and sys.argv[4] else []
-    mood = sys.argv[5] if len(sys.argv) > 5 else None
-    st, mood = compose(seed, dur, trans, mood)
+    mood = sys.argv[5] if len(sys.argv) > 5 and sys.argv[5] else None
+    soft = len(sys.argv) > 6 and sys.argv[6] == 'soft'
+    st, mood = compose(seed, dur, trans, mood, soft)
     wavfile.write(out, SR, (np.clip(st, -1, 1) * 32767).astype(np.int16)); print("ok", out, mood)
