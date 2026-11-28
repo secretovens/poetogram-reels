@@ -141,7 +141,64 @@ def sc_tape(r):
     g.append(stroke(f"M60,{base+2} L1020,{base+2}", 3, INK, .7))
     return "".join(g)
 
-SCENES = {"umbrella": sc_umbrella, "phone": sc_phone, "tape": sc_tape}
+def sc_candle(r):
+    g = []; cx, base = 540, 1700
+    g.append(stroke(f"M120,{base} L960,{base}", 3, INK, .7))
+    # table
+    g.append(stroke(f"M260,{base-200} L820,{base-200} M300,{base-200} L300,{base} M780,{base-200} L780,{base}", 6))
+    # melting candle (short, wax pooled) with RED flame
+    top = base - 330
+    g.append(stroke(f"M{cx-40},{base-200} L{cx-40},{top} Q{cx-20},{top-10} {cx},{top+4} Q{cx+20},{top-8} {cx+40},{top} L{cx+40},{base-200}", 5, INK, 1, PAPER))
+    g.append(stroke(f"M{cx-40},{top+20} q-14,40 -4,70 M{cx+40},{top+30} q16,50 6,90", 4))
+    g.append(stroke(f"M{cx-120},{base-200} Q{cx-60},{base-226} {cx},{base-212} Q{cx+70},{base-230} {cx+130},{base-200}", 5, INK, 1, "url(#hatch)"))
+    g.append(stroke(f"M{cx},{top} l0,-22", 4))
+    g.append(f'<circle cx="{cx}" cy="{top-70}" r="120" fill="{RED}" opacity=".12" filter="url(#wash)"/>')
+    g.append(f'<path d="M{cx},{top-120} C{cx+34},{top-70} {cx+32},{top-30} {cx},{top-22} C{cx-32},{top-30} {cx-34},{top-70} {cx},{top-120}Z" fill="{RED}" filter="url(#wash)"/>')
+    # light rays on the room (hatched shadows far away)
+    for a in range(-60, 241, 30):
+        if 20 < a < 160: continue
+        ra = math.radians(a); g.append(stroke(f"M{cx+150*math.cos(ra):.0f},{top-70-150*math.sin(ra):.0f} l{80*math.cos(ra):.0f},{-80*math.sin(ra):.0f}", 2, INK, .4))
+    # small figure sitting in the light, reading
+    return "".join(g)
+
+def sc_bench(r):
+    g = []; base = 1700
+    g.append(stroke(f"M60,{base} L1020,{base}", 3, INK, .7))
+    # bench
+    g.append(stroke(f"M220,{base-170} L860,{base-170} L860,{base-150} L220,{base-150} Z", 4, INK, 1, "url(#hatch2)"))
+    g.append(stroke(f"M220,{base-260} L860,{base-260} M240,{base-150} L240,{base} M840,{base-150} L840,{base} M260,{base-260} L260,{base-170} M820,{base-260} L820,{base-170}", 5))
+    # two people at the ends, turned away from each other
+    for x, f in ((330, -1), (750, 1)):
+        g.append(stroke(f"M{x-50},{base-170} Q{x-56},{base-300} {x-20},{base-380} Q{x},{base-396} {x+20},{base-380} Q{x+56},{base-300} {x+50},{base-170} Z", 4, INK, 1, "url(#hatch)"))
+        g.append(f'<circle cx="{x+14*f}" cy="{base-420}" r="34" fill="{PAPER}" stroke="{INK}" stroke-width="4"/>')
+        g.append(stroke(f"M{x-20},{base-170} L{x-24},{base} M{x+20},{base-170} L{x+24},{base}", 5))
+    # red scarf on one, trailing into the gap between them
+    g.append(stroke(f"M735,{base-385} Q700,{base-360} 690,{base-320} Q660,{base-250} 600,{base-230} Q560,{base-220} 540,{base-240}", 9, RED, .9))
+    # leaves on ground
+    for _ in range(14):
+        x, y = r.uniform(80, 1000), r.uniform(base - 20, base + 40)
+        g.append(stroke(f"M{x:.0f},{y:.0f} q10,-10 20,0 q-10,10 -20,0", 2, INK, .6))
+    return "".join(g)
+
+def sc_calendar(r):
+    g = []; cx = 540; top = 1080
+    g.append(stroke(f"M{cx-260},{top} L{cx+260},{top} L{cx+260},{top+520} L{cx-260},{top+520} Z", 5, INK, 1, PAPER))
+    g.append(f'<path d="M{cx-256},{top+4} h512 v70 h-512 Z" fill="url(#hatch)"/>')
+    for i in range(-3, 4): g.append(f'<circle cx="{cx+i*70}" cy="{top}" r="10" fill="{PAPER}" stroke="{INK}" stroke-width="4"/>')
+    # grid of days; every cell has a small 'kal' squiggle
+    for row in range(5):
+        for col in range(7):
+            x = cx - 240 + col * 69; y = top + 100 + row * 82
+            g.append(stroke(f"M{x},{y} l60,0 l0,70 l-60,0 Z", 2, INK, .6))
+            g.append(stroke(f"M{x+12},{y+40} q8,-14 16,0 q8,14 16,0", 2, INK, .55))
+    # one day circled in red — today
+    g.append(f'<ellipse cx="{cx-240+3*69+30}" cy="{top+100+2*82+35}" rx="52" ry="46" fill="none" stroke="{RED}" stroke-width="7" filter="url(#wash)" transform="rotate(-8 {cx-240+3*69+30} {top+100+2*82+35})"/>')
+    # pen lying below
+    g.append(stroke(f"M{cx+120},{top+600} l220,-60 l12,14 l-220,60 Z", 4, INK, 1, "url(#hatch2)"))
+    g.append(stroke(f"M{cx-300},{top+640} L{cx+380},{top+640}", 3, INK, .6))
+    return "".join(g)
+
+SCENES = {"umbrella": sc_umbrella, "phone": sc_phone, "tape": sc_tape, "candle": sc_candle, "bench": sc_bench, "calendar": sc_calendar}
 
 def render(scene, out, seed=11):
     r = random.Random(seed)

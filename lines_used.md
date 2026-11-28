@@ -37,3 +37,11 @@ Earlier cards (not in series): हँसकर खोना और खोकर 
 - alf01 Ghalib — हज़ारों ख़्वाहिशें ऐसी · alf02 Tagore — miss the sun/stars · alf03 Gibran — pain/shell · alf04 Kabir — बुरा जो देखन · alf05 Shakespeare — give sorrow words
 - alf06 Mir — पत्ता पत्ता बूटा बूटा · alf07 Ghalib — रंज से ख़ूगर · alf08 Wilde — love oneself · alf09 Seneca — imagination · alf10 Kabir — धीरे-धीरे रे मना
 - alf11 Gibran — sorrow carves/joy · alf12 Dickinson — Hope is the thing with feathers · alf13 Tagore — kissed my soul with pain · alf14 Ghalib — जन्नत की हक़ीक़त · alf15 Mir — राह-ए-दूर-ए-इश्क़
+
+## Sketchbook (28 Nov 2026)
+- pg001 सबके लिए हमेशा मौजूद रहे, / इसीलिए किसी को कमी महसूस नहीं हुई।
+- pg002 सबसे लंबी बातें, / उनसे होती हैं जिनसे अब बात नहीं होती।
+- pg003 दिमाग़ वो बातचीत बार-बार दोहराता है, / जिसमें हम सही जवाब देना भूल गए थे।
+- pg004 भीड़ में अकेलापन नहीं चुभता, / चुभता है जब अपना पास बैठकर भी दूर हो।
+- pg005 किसी के लिए सब कुछ बनने चले थे, / ख़ुद के लिए कुछ भी नहीं बचे।
+- pg006 ज़िंदगी छोटी नहीं है, / हम बस उसे 'बाद में' पर टालते रहते हैं।
