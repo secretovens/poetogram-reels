@@ -42,9 +42,9 @@ def build(it, b, tmp):
                    check=True, capture_output=True)
     N = int(DUR * 30); out = os.path.join(ROOT, "reels", it["id"] + ".mp4")
     vf = (f"scale=2160:3840,zoompan=z='1+0.04*on/{N}':d={N}:x='iw/2-(iw/zoom/2)':y='ih*0.42-(ih/zoom*0.42)':s=1080x1920:fps=30,"
-          f"noise=alls=4:allf=t,format=yuv420p")
+          f"format=yuv420p")
     subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-loop", "1", "-framerate", "30", "-t", f"{DUR}", "-i", png, "-i", wav,
-                    "-vf", vf, "-t", f"{DUR}", "-c:v", "libx264", "-preset", "medium", "-crf", "18",
+                    "-vf", vf, "-t", f"{DUR}", "-c:v", "libx264", "-preset", "medium", "-crf", "21", "-maxrate", "6M", "-bufsize", "12M",
                     "-af", "loudnorm=I=-14:TP=-1.5:LRA=11,afade=t=in:d=0.3,afade=t=out:st=8.6:d=1.4", "-ar", "48000",
                     "-c:a", "aac", "-b:a", "192k", "-movflags", "+faststart", out], check=True, capture_output=True)
     subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", png, "-q:v", "2", os.path.join(ROOT, "covers", it["id"] + ".jpg")], check=True)
