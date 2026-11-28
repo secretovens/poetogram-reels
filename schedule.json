@@ -606,7 +606,8 @@
       "posted": true,
       "media_id": "17993099340120338",
       "posted_at": "2026-11-28T16:28:00+05:30",
-      "yt_error": "YouTube rate-limited 2 attempts 28 Nov ~19:30 IST — owner to check Studio before re-upload"
+      "yt_error": "YouTube rate-limited 2 attempts 28 Nov ~19:30 IST — owner to check Studio before re-upload",
+      "trial_posted": "skipped"
     },
     {
       "id": "pg002",
@@ -617,7 +618,9 @@
       "posted": false,
       "media_id": null,
       "posted_at": null,
-      "not_before": "2026-11-28T21:30:00+05:30"
+      "not_before": "2026-11-28T21:30:00+05:30",
+      "trial_posted": "skipped",
+      "main_only": true
     },
     {
       "id": "pg001",
@@ -628,7 +631,10 @@
       "posted": false,
       "media_id": null,
       "posted_at": null,
-      "not_before": "2026-11-29T00:00:00+05:30"
+      "not_before": "2026-11-29T00:00:00+05:30",
+      "trial_posted": false,
+      "trial_media_id": null,
+      "trial_posted_at": null
     },
     {
       "id": "pg004",
@@ -639,7 +645,10 @@
       "posted": false,
       "media_id": null,
       "posted_at": null,
-      "not_before": "2026-11-29T00:00:00+05:30"
+      "not_before": "2026-11-29T00:00:00+05:30",
+      "trial_posted": false,
+      "trial_media_id": null,
+      "trial_posted_at": null
     },
     {
       "id": "pg005",
@@ -650,7 +659,10 @@
       "posted": false,
       "media_id": null,
       "posted_at": null,
-      "not_before": "2026-11-29T00:00:00+05:30"
+      "not_before": "2026-11-29T00:00:00+05:30",
+      "trial_posted": false,
+      "trial_media_id": null,
+      "trial_posted_at": null
     },
     {
       "id": "pg006",
@@ -661,7 +673,10 @@
       "posted": false,
       "media_id": null,
       "posted_at": null,
-      "not_before": "2026-11-29T00:00:00+05:30"
+      "not_before": "2026-11-29T00:00:00+05:30",
+      "trial_posted": false,
+      "trial_media_id": null,
+      "trial_posted_at": null
     }
   ],
   "carousels": [
